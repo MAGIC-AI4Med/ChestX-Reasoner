@@ -9,24 +9,16 @@ class qwen2vl_sftconfig():
         self.cache_dir="/mnt/lustre/fanziqing/radfm/checkpoint"   
         self.mode="reasoning"
         # self.mode="NOCOT"
-        
-        # transformer trainer中的 优化器，原始模型等存储路径, save="no"即不通过trainer保存
         # self.save_strategy="no"
         self.save_strategy="steps"
         self.save_steps=500
         self.save_only_model=True
-        # self.output_dir="/mnt/lustre/fanziqing/radfm/radshare/RadFM/output/7Bsftmimic"
-        self.output_dir="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/output/7Bcoldfinal"
 
-        # transformers trainer 中的log和output文件路径, report_to="none"则不产生logging, Set to "wandb" if you are using Weights and Biases for logging
-        # self.logging_dir="/mnt/lustre/fanziqing/radfm/radshare/log/sft_qwen2vl_nocot_llm" 
-        # self.logging_dir="/mnt/lustre/fanziqing/radfm/radshare/log/sft_qwen2vl_combine_llm" 
-        # self.logging_dir="/mnt/lustre/fanziqing/radfm/radshare/log/sft_qwen2vl_cot_7b_llmlora" 
-        # self.logging_dir="/mnt/lustre/fanziqing/radfm/radshare/RadFM/log/sftmimic_7b"
-        self.logging_dir="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/log/7bcoldfinal"
+        self.output_dir=None
 
 
-        # self.logging_dir="/mnt/lustre/fanziqing/radfm/radshare/log/sft_qwen2vl_combine_7b"
+        self.logging_dir="your tensorboard logging path"
+
         self.report_to="tensorboard"
         self.logging_steps=10  # 多少step返回print一次loss
         self.logging_first_step=True
@@ -36,27 +28,15 @@ class qwen2vl_sftconfig():
         # evaluation_strategy="steps",  # 每隔一定步数进行评估
         self.eval_steps=100  # 每500步评估一次
         # 自定义模型存储路径.最终模型和tokenizer存储路径
-        # self.save_path="/mnt/lustre/fanziqing/radfm/radshare/savemodel/SFT_nocot_llm" 
-        # self.save_path="/mnt/lustre/fanziqing/radfm/radshare/savemodel/SFT_combine_llm" 
-        # self.save_path="/mnt/lustre/fanziqing/radfm/radshare/savemodel/SFT_cot_7blora" 
-        # self.save_path="/mnt/lustre/fanziqing/radfm/radshare/savemodel/SFT_combine_7b" 
-        # self.save_path="/mnt/lustre/fanziqing/radfm/radshare/RadFM/output/SFT_cot_7b"
-        # self.save_path="/mnt/lustre/fanziqing/radfm/radshare/RadFM/output/SFT_mimic_7b"
-        self.save_path="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/output/sftfinal"
 
-        # self.save_path="/mnt/lustre/fanziqing/radfm/radshare/savemodel/SFT_cot_7b_llmlora" 
+        self.save_path="your model save path"
+
         self.llm_lora=False
         
         
         # sft 训练、测试json文件路径
-        # self.train_datapath="/mnt/lustre/fanziqing/radfm/radshare/dataset/sft_10k_nocot_train.json"
-        # self.test_datapath="/mnt/lustre/fanziqing/radfm/radshare/dataset/sft_10k_nocot_test.json"
-        # self.train_datapath="/mnt/lustre/fanziqing/radfm/radshare/dataset/sft_10k_combine_train.json"
-        # self.test_datapath="/mnt/lustre/fanziqing/radfm/radshare/dataset/sft_10k_combine_test.json"
-        # self.train_datapath="/mnt/lustre/fanziqing/radfm/radshare/RadFM/dataset/sft_5k_nocot_train.json"
-        # self.test_datapath="/mnt/lustre/fanziqing/radfm/radshare/RadFM/dataset/sft_5k_nocot_test.json"
-        # self.train_datapath="/mnt/lustre/fanziqing/radfm/radshare/RadFM/dataset/binary_cls_train.json"
-        # self.test_datapath="/mnt/lustre/fanziqing/radfm/radshare/RadFM/dataset/binary_cls_test.json"
+        self.train_datapath= "your train path"
+        self.test_datapath="your test path"
         
         self.dataloader_num_workers=48
         # self.BATCH_SIZE=64
@@ -80,10 +60,6 @@ class qwen2vl_sftconfig():
         self.max_grad_norm=1.0
         self.lr_scheduler_type="cosine" 
 
-        # self.deepspeed_config="/mnt/lustre/fanziqing/radfm/radshare/config/zero3_smaller.json"
-        # self.deepspeed_config="/mnt/lustre/fanziqing/radfm/radshare/config/zero2.json"
-        # self.deepspeed_config="/mnt/lustre/fanziqing/radfm/radshare/RadFM/config/zero3.json"
-        # self.deepspeed_config="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/config/zero3_small.json"
         self.deepspeed_config="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/config/zero2.json"
         self.fp16=False  # Enable mixed precision for better performance on supported hardware
         self.bf16=True

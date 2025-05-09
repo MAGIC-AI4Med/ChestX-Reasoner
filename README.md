@@ -27,19 +27,38 @@ _<sup>1</sup> Shanghai Jiao Tong University,
 
 The official codes for "ChestX-Reasoner: Advancing Radiology Foundation Models with Reasoning through Step-by-Step Verification".  
 
-## Usage
+## Training
+In the following, we provide an overview and detailed guidance on the code used to train our ChestX-Reasoner and its variants.  
+* Note that SFT step requires at least 4 A100 80GB GPUs and training for about 2 days.  
+* Note that RL step requires at least 8 A100 80GB GPUs and training for about 3 days.  
 ### Environment  
-
-
+You can install the code environment used for training our model. Our code is established based on **VERL(https://github.com/volcengine/verl)** engine. You may see for more detailed instructions. Besides, we provide a copy of our env list in **./env.txt**.  
+```bash
+conda create -n env_name python==3.10
+conda activate env_name
+pip3 install torch torchvision
+pip3 install flash-attn --no-build-isolation
+git clone https://github.com/volcengine/verl.git
+cd verl
+pip3 install -e .[vllm]
+```
+* Python: Version >= 3.9  
+* CUDA: Version >= 12.1  
+* VLLM: Version >= 0.7  
 ### Supervised Fine-Tuning  
-We provide all the code used for further training on MMedC. The codes are in the `pretrain` folder. You can check the [documentation](./pretrain/README.md) in the folder for how to use the codes.
+```bash
+cd ChestXReasoner
+bash run_SFT.sh
+```
+Notably, before run the bash file, there are configs and data paths should set in your devices. Please see details in ./ChestXReasoner/readme.md  
 
-* Note that this step requires at least 8 A100 80GB GPUs and training for over a month.
 
 ### Reinforcement Learning  
-We provide all the code used for fine-tuning. We support 2 fine-tuning methods: Full-Model Fine-tuning and PEFT Fine-Tuning.  Both codes are in the `finetune` folder. You can check the [documentation](./finetune/README.md) in the folder for how to use the codes.
+To be continue  
 
 ### Reinforcement Learning with Process Reward  
+
+## Evaluation
 
 ### Benchmark Data  
 In `eval/data`, we present our benchmark construction code and our data.
@@ -48,3 +67,4 @@ We provide:
 1. The evaluation code on both reasoning and accuracy in `eval/`
 2. The baseline inference code in `eval/inference`
 3. The evaluation results on both reasoning and accuracy of all baselines in `eval/res`
+

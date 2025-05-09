@@ -27,124 +27,19 @@ def prepare_dataset(data_list,weights):
     # if "reasoning" in data_list[0]:
     test_dataset_list=None
     for dataset_name in data_list:
-        if dataset_name == "all_reasoning":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM/dataset/coldstart/processed/all_coldstart.json"
-            test_file=None
-        elif dataset_name=="binary_mimic":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/mimic_binary_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/mimic_binary_test.json"
-
-        elif dataset_name=="binary_mimic_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/mimic_binary_no_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/mimic_binary_test.json"
-
-        elif dataset_name=="binary_chexpert":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/chexpert_binary_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/chexpert_binary_test.json"
-
-        elif dataset_name=="binary_chexpert_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/chexpert_binary_no_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/chexpert_binary_test.json"
-
-        elif dataset_name=="binary_rsna":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/rsna_binary_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/rsna_binary_test.json"
-        
-        elif dataset_name=="binary_rsna_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/rsna_binary_no_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/rsna_binary_test.json"
-
-        elif dataset_name=="binary_siim":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/siim_binary_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/siim_binary_test.json"
-        elif dataset_name=="binary_siim_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/siim_binary_no_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/siim_binary_test.json"
-
-        elif dataset_name=="temporal":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/temporal_cls_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/temporal_cls_test.json"
-        elif dataset_name=="temporal_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/temporal_cls_no_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/temporal_cls_test.json"
-
-        elif dataset_name=="multi_mimic":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/mimic_multi_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/mimic_multi_test.json"
-
-        elif dataset_name=="multi_mimic_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/mimic_multi_no_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/mimic_multi_test.json"
-
-
-        elif dataset_name=="multi_chexpert":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/chexpert_multi_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/chexpert_multi_test.json"
-
-        elif dataset_name=="multi_chexpert_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/chexpert_multi_no_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/chexpert_multi_test.json"
-
-
-        elif dataset_name=="single_mimic":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/mimic_single_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/mimic_single_test.json"
-        elif dataset_name=="single_mimic_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/mimic_single_no_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/mimic_single_test.json"
-        
-        elif dataset_name=="single_chexpert":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/chexpert_single_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/chexpert_single_test.json"
-        elif dataset_name=="single_chexpert_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/train/shrink/chexpert_single_no_option.json"
-            test_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/test/shrink/chexpert_single_test.json"
-
-        elif dataset_name=="temporal_reasoning":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/coldstart/processed/temporal_cls_option.json"
-            test_file=None
-        elif dataset_name=="temporal_reasoning_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/coldstart/processed/temporal_cls_no_option.json"
-            test_file=None
-
-        elif dataset_name=="mimic_binary_reasoning":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/coldstart/processed/mimic_binary_option.json"
-            test_file=None
-        elif dataset_name=="mimic_binary_reasoning_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/coldstart/processed/mimic_binary_no_option.json"
-            test_file=None
-        elif dataset_name=="mimic_multi_reasoning":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/coldstart/processed/mimic_multi_option.json"
-            test_file=None
-        elif dataset_name=="mimic_multi_reasoning_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/coldstart/processed/mimic_multi_no_option.json"
-            test_file=None
-        elif dataset_name=="mimic_single_reasoning":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/coldstart/processed/mimic_single_option.json"
-            test_file=None
-        elif dataset_name=="chexpert_binary_reasoning":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/coldstart/processed/chexpert_binary_option.json"
-            test_file=None
-        elif dataset_name=="chexpert_binary_reasoning_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/coldstart/processed/chexpert_binary_no_option.json"
-            test_file=None
-
-        elif dataset_name=="chexpert_multi_reasoning":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/coldstart/processed/chexpert_multi_option.json"
-            test_file=None
-        elif dataset_name=="chexpert_multi_reasoning_no":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/coldstart/processed/chexpert_multi_no_option.json"
-            test_file=None
-        elif dataset_name=="chexpert_single_reasoning":
-            train_file="/mnt/lustre/fanziqing/radfm/radshare/RadFM_final/dataset/coldstart/processed/chexpert_single_option.json"
-            test_file=None
+        if dataset_name == "your dataset name1" :
+            train_file= "your train file dir"
+            test_file="your train file dir" or None
+        elif dataset_name == "your dataset name2" :
+            train_file= "your train file dir2"
+            test_file="your train file dir2" or None
+      
         else:
             print(dataset_name)
             raise NotImplementedError 
         train_dataset=SFT_Dataset(train_file)
         
         train_dataset_list.append(train_dataset)
-        # test_dataset_list.append(test_dataset)
         if test_dataset_list is not None:
             test_dataset=SFT_Dataset(test_file)
             test_dataset_list.append(test_dataset)
@@ -167,38 +62,30 @@ processor = AutoProcessor.from_pretrained(
 
 tokenizer=processor.tokenizer
 
-# data_list=["all_reasoning"]
-# data_list=["binary"]
-#'''
-# dataset_names=["binary_mimic","binary_chexpert","binary_rsna","binary_siim","temporal","multi_mimic","multi_chexpert","single_mimic","single_chexpert"]
+dataset_names=[" your dataset name lists"]
+weights=["your weights"]
+
+'''
+example case:
 dataset_names=[
 # "binary_mimic","binary_chexpert","binary_rsna","binary_siim","temporal","multi_mimic","multi_chexpert","single_mimic","single_chexpert",\
 # "binary_mimic_no","binary_chexpert_no","binary_rsna_no","binary_siim_no","temporal_no","multi_mimic_no","multi_chexpert_no",\
 "mimic_binary_reasoning","mimic_multi_reasoning","mimic_single_reasoning","chexpert_binary_reasoning","chexpert_multi_reasoning","chexpert_single_reasoning","temporal_reasoning",\
 "mimic_binary_reasoning_no","mimic_multi_reasoning_no","chexpert_binary_reasoning_no","chexpert_multi_reasoning_no","temporal_reasoning_no"
 ]
-# weights=[0.2,0.08,0.2,0.5]
-# weights=[1,2]
-# weights=[78,82,10,10,10,73,96,28,15]
-# weights=[0.5,0.5,0.1,0.1,0.1,0.5,0.5,0.3,0.3]
 weights=[
 # 0.3,0.3,0.2,0.2,0.2,0.3,0.3,0.2,0.3, \
 # 0.3,0.3,0.2,0.2,0.2,0.3,0.3, \
 0.1,0.1,0.1,0.1,0.1,0.1,0.05, \
 0.1,0.1,0.1,0.1,0.05
 ]
-# weights=
-# ["mimic_single","mimic_binary","mimic_multi","temporal_cls"]
-# s_index=[0,1,2,3,4,5,6,7]
-# s_index=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27]
-s_index=[0,1,2,3,4,5,6,7,8,9,10,11]
+'''
+
+s_index=range(len(weights))
 random.shuffle(s_index)
 dataset_names=[dataset_names[iitem] for iitem in s_index]
 weights=[weights[iitem] for iitem in s_index]
 print(dataset_names)
-#'''
-# data_list=["binary","temporal","multi","single"]
-# weights=[1]
 
 train_dataset,test_dataset=prepare_dataset(dataset_names,weights)
 
@@ -221,7 +108,7 @@ model = Qwen2VLForConditionalGeneration.from_pretrained(
 # 将加载的权重传入模型
 # model.load_state_dict(checkpoint)
 
-
+# whether to use lora
 if config.llm_lora:
     lora_config = LoraConfig(
         task_type=TaskType.CAUSAL_LM,  # LoRA for causal language modeling task
@@ -231,12 +118,9 @@ if config.llm_lora:
         target_modules=["q_proj", "v_proj"],  # Apply LoRA to specific layers
 
         )
-    # language_model=model.model
-    # language_model= get_peft_model(language_model, lora_config)
+
     model=get_peft_model(model, lora_config)
 # model.model.print_trainable_parameters()
-
-
 
 ##############################    设置训练参数    #################################
 
@@ -251,10 +135,3 @@ trainer = Trainer(
 model.train()
 
 trainer.train()
-
-# if "zero3" in config.deepspeed_config: 
-#     trainer.deepspeed.save_16bit_model(config.save_path)
-# else:
-#     model.save_pretrained(config.save_path)
-
-# tokenizer.save_pretrained(config.save_path)

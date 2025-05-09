@@ -178,13 +178,11 @@ class Qwen2vl_TrainCollator:
         self.processor = processor
         self.ingnore_index = IGNORE_INDEX
         self.mode=mode
-        # self.processor.tokenizer.pad_token_id=0
 
     def convert_one_piece(
         self,
         q_input_ids: torch.Tensor,
         a_input_ids: torch.Tensor,
-        # pixel_values: torch.Tensor,
     ):
         input_ids = torch.concat(
             [
@@ -221,8 +219,6 @@ class Qwen2vl_TrainCollator:
             new_batch["labels_list"].append(temp_labels)
             new_batch["pixel_values"].append(qaimage_output["pixel_values"])
             new_batch["image_grid_thw"].append(qaimage_output["image_grid_thw"])
-            # new_batch["dataset_name"].append(dataset_name)
-            # new_batch["item_id"].append(item_id)
 
         max_input_len = max(new_batch["max_input_len_list"])
 
@@ -242,7 +238,6 @@ class Qwen2vl_TrainCollator:
                 for index, value in enumerate(new_batch["input_ids_list"])
             ]
         )
-        # print(final_input_ids)
         final_labels = torch.concat(
             [
                 torch.concat(
@@ -267,8 +262,6 @@ class Qwen2vl_TrainCollator:
         attention_mask[final_input_ids == self.processor.tokenizer.pad_token_id] = 0
 
         return dict(
-            # item_id= new_batch["item_id"],
-            # dataset_names=new_batch["dataset_name"],
             input_ids= final_input_ids,
             labels= final_labels,
             pixel_values= final_pixel_values,
@@ -281,7 +274,6 @@ class Qwen2vl_TestCollator:
         self.processor = processor
         self.ingnore_index = IGNORE_INDEX
         self.mode=mode
-        # self.processor.tokenizer.pad_token_id=0
 
     def convert_one_piece(
         self,
@@ -304,9 +296,9 @@ class Qwen2vl_TestCollator:
                 qaimage_output["q_input_ids"]
             )
             new_batch["max_input_len_list"].append(temp_input_ids.shape[1])
-            # new_batch["answer_list"].append(answer)
+
             new_batch["input_ids_list"].append(temp_input_ids)
-            # new_batch["labels_list"].append(temp_labels)
+
             new_batch["pixel_values"].append(qaimage_output["pixel_values"])
             new_batch["image_grid_thw"].append(qaimage_output["image_grid_thw"])
 
