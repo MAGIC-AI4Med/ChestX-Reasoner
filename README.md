@@ -10,6 +10,8 @@ ChestX-Reasoner: Advancing Radiology Foundation Models with Reasoning through St
 
 <h4> |<a href="https://arxiv.org/pdf/2504.20930?"> 📑 Paper </a> |
 <a href="https://github.com/MAGIC-AI4Med/ChestX-Reasoner"> 🐱 Github Repo </a> |
+<a href="https://huggingface.co/byrLLCC/ChestX-Reasoner"> 🐱 ChestX-Reasoner-7B </a> |
+  <a href="https://huggingface.co/byrLLCC/ChestX-Reasoner"> 🐱 RadRBench </a> |
 </h4>
 
 <!-- **Authors:** -->
@@ -25,8 +27,20 @@ _<sup>1</sup> Shanghai Jiao Tong University,
 
 The official codes for "ChestX-Reasoner: Advancing Radiology Foundation Models with Reasoning through Step-by-Step Verification".  
 
-[Paper (Arxiv version)](https://arxiv.org/pdf/2504.20930?)  
+## Usage
+### Environment  
 
-Models: [ChestX-Reasoner-7B](https://huggingface.co/byrLLCC/ChestX-Reasoner)  
 
-Datasets: to be continued  
+### Supervised Fine-Tuning  
+We provide all the code used for further training on MMedC. The codes are in the `pretrain` folder. You can check the [documentation](./pretrain/README.md) in the folder for how to use the codes.
+
+* Note that this step requires at least 8 A100 80GB GPUs and training for over a month.
+
+### Reinforcement Learning  
+We provide all the code used for fine-tuning. We support 2 fine-tuning methods: Full-Model Fine-tuning and PEFT Fine-Tuning.  Both codes are in the `finetune` folder. You can check the [documentation](./finetune/README.md) in the folder for how to use the codes.
+
+### Reinforcement Learning with Process Reward  
+
+### Benchmark Data  
+
+### Evaluation  
