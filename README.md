@@ -15,7 +15,7 @@ ChestX-Reasoner: Advancing Radiology Foundation Models with Reasoning through St
 </h4>
 
 <!-- **Authors:** -->
-_**Ziqing Fan<sup>1,2 </sup>, Cheng Liang<sup>1,2 </sup>, Chaoyi Wu<sup>1</sup>, Ya Zhang<sup>1,2</sup>, Yanfeng Wang<sup>1,2</sup>, Weidi Xie<sup>1,2</sup>**_
+_**Ziqing Fan<sup>1,2 </sup>, Cheng Liang<sup>1,2 </sup>, Chaoyi Wu<sup>1,2 </sup>, Ya Zhang<sup>1,2</sup>, Yanfeng Wang<sup>1,2</sup>, Weidi Xie<sup>1,2</sup>**_
 
 
 <!-- **Affiliations:** -->
