@@ -23,3 +23,10 @@ _<sup>1</sup> Shanghai Jiao Tong University,
 
 </div>
 
+The official codes for "ChestX-Reasoner: Advancing Radiology Foundation Models with Reasoning through Step-by-Step Verification".  
+
+[Paper (Arxiv version)](https://arxiv.org/pdf/2504.20930?)  
+
+Models: [ChestX-Reasoner-7B](https://huggingface.co/byrLLCC/ChestX-Reasoner)  
+
+Datasets: to be continued  
