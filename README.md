@@ -46,8 +46,11 @@ pip3 install -e .[vllm]
 * CUDA: Version >= 12.1  
 * VLLM: Version >= 0.7  
 ### Supervised Fine-Tuning  
-
-
+```bash
+cd ChestXReasoner
+bash run_SFT.sh
+```
+Notably, there are configs and data paths should set in your devices. Please see details in ./ChestXReasoner/readme.md  
 
 
 ### Reinforcement Learning  
