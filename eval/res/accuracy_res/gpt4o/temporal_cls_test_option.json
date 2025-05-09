@@ -1,0 +1,746 @@
+[
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p10/p10268877/s53452091/e35d7c70-3f278882-4f133ee9-184f4d7e-fa32a4d7.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p10/p10268877/s57765703/2f8ca5e2-5a1e02ab-e84f7547-069743e9-0f08d9e0.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-94]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of consolidation. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p10/p10268877/s53452091/e35d7c70-3f278882-4f133ee9-184f4d7e-fa32a4d7.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p10/p10268877/s57765703/2f8ca5e2-5a1e02ab-e84f7547-069743e9-0f08d9e0.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "improving",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-94]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p10/p10268877/s53452091/e35d7c70-3f278882-4f133ee9-184f4d7e-fa32a4d7.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p10/p10268877/s57765703/2f8ca5e2-5a1e02ab-e84f7547-069743e9-0f08d9e0.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-94]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p11/p11022245/s53978610/957e4fa0-2b741119-9fb1f79c-62130589-86d6cbed.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p11/p11022245/s58274962/f7ba6691-53545537-20c8b2dc-79dbd392-36f05d15.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-275]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of consolidation. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p11/p11022245/s53978610/957e4fa0-2b741119-9fb1f79c-62130589-86d6cbed.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p11/p11022245/s58274962/f7ba6691-53545537-20c8b2dc-79dbd392-36f05d15.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-275]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p11/p11052273/s53407845/e8da4f53-f62c1459-cc4b5add-8a21431c-c2395de1.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p11/p11052273/s53702175/e35b1970-3dfc9412-ec657374-09990870-561ca892.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-276]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p11/p11569093/s52011372/5f961326-0ccce927-f726948a-19e43255-88306b58.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p11/p11569093/s56084617/68a9dec9-436c84d0-572f0df9-18929544-6b237d3b.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-311]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumothorax. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p11/p11607628/s52356321/ae7fb131-28d05c98-90cbbc4c-f05c219a-1d0fed84.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p11/p11607628/s52246418/c154b276-3e9ecb31-b2fe9540-94554c09-d541d5fa.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-316]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pleural effusion. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p12/p12702423/s51244261/17ff7369-20912497-3b539b61-9c4ace20-7dc7fa12.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p12/p12702423/s53795595/def3b450-db2f7c7f-a082b686-800a5de0-6b74e997.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "improving",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-408]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pleural effusion. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13031876/s52130325/aa2e2a96-6ab4170e-539eb20c-0b4b2fc8-ee2502ad.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13031876/s50629857/3c58546c-0dbf3603-a97cbc6f-c4f6379f-46f0775b.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-434]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of consolidation. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13031876/s52130325/aa2e2a96-6ab4170e-539eb20c-0b4b2fc8-ee2502ad.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13031876/s50629857/3c58546c-0dbf3603-a97cbc6f-c4f6379f-46f0775b.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-434]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13263843/s58319427/28e4376e-045edb59-84977ca1-d0deb357-1d35d4b9.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13263843/s54651626/b87403e9-8463e40a-a104367f-cb96ab7e-b13e08a2.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-454]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of consolidation. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13291370/s53346804/0dbe8ef1-802b094a-36fae3c2-0d15af98-7a5547ab.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13291370/s57012952/13def5d7-feb09fc8-8219055b-5a1e8e13-789ecfcc.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-463]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13473495/s57333607/9748d26b-62549e8c-0a4fec22-48ae4480-691c7013.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13473495/s55610892/e2639104-28411e18-bfafdd6f-8f7fed3a-0801198b.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-474]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13473495/s52412265/a6aad5da-2b346586-e6b4b977-d71b3973-925a1eb1.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13473495/s57333607/9748d26b-62549e8c-0a4fec22-48ae4480-691c7013.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-475]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13896515/s56840019/3e9bfa41-70250cb0-d33887c3-436560fc-339ed2d6.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13896515/s50183767/c85e209c-a1fec74b-431277e7-6032eb3a-95fe7881.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-503]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13896515/s54879730/d974aeb8-59d6b3c0-b7dec6c1-a25cf20c-541f88c0.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13896515/s53943549/7301509c-ae57fc65-dab3994c-b7d85ab5-8506df82.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-504]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13975291/s51140249/0b573d4b-fece5236-ea941b33-c752a0ab-b5cfdd68.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13975291/s58304701/438039d7-2b32dcfa-bd0fc343-02ae26e9-7b649974.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-515]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of consolidation. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13975291/s51140249/0b573d4b-fece5236-ea941b33-c752a0ab-b5cfdd68.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p13/p13975291/s58304701/438039d7-2b32dcfa-bd0fc343-02ae26e9-7b649974.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "improving",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-515]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14387068/s54780158/859fa416-f6343ef9-59e07aef-7332f765-4e2be7d0.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14387068/s51664945/9196cf10-d7be030b-9eb57d37-e9f760c5-b583cca5.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-550]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumothorax. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14387068/s58340268/2608e773-08c16868-0fac8b34-f79c46da-e7c1319e.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14387068/s58601585/027ed427-b023757e-7391ee80-7a5da2fb-b3ae0b4e.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-551]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14387068/s58340268/2608e773-08c16868-0fac8b34-f79c46da-e7c1319e.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14387068/s58601585/027ed427-b023757e-7391ee80-7a5da2fb-b3ae0b4e.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-551]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14387068/s58340268/2608e773-08c16868-0fac8b34-f79c46da-e7c1319e.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14387068/s58601585/027ed427-b023757e-7391ee80-7a5da2fb-b3ae0b4e.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-551]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumothorax. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14744884/s54052607/a7086ff1-0170e249-78abab05-8879d1bc-4bf53b97.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14744884/s52630162/0619df15-9da411e1-9a47d1bf-973bbcf8-97f09ae0.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "improving",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-580]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14851532/s57089146/aaaa9831-9d16cbd6-73e400af-8f17ddaf-44968eda.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14851532/s51078371/66e86adc-70548bf4-9981e744-42d0da07-838b4d2a.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-592]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14851532/s58585627/42c22f15-803b9ea1-709d9163-e1ec1da8-df4d6d86.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14851532/s53685384/d3033719-9b507af8-6e6975ac-c32ea556-6f68613d.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-593]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14851532/s57850217/2d53d7a6-952779d8-cf36815b-c0de03a5-65207ded.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14851532/s58103833/445b99e9-01f5072d-77cc64c9-359902d0-e84c80c3.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "improving",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-594]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14851532/s54155919/c4553877-9b07b9a5-f62948cd-a312c9b6-a2980bca.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p14/p14851532/s59207607/9f03f488-52d9e9df-006302a9-227c8b18-48e15125.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-595]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p15/p15131736/s59242045/1432843f-fca7eaa3-df3e65b3-c45419fa-71029980.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p15/p15131736/s54867671/6cd580d7-5ec74248-17b89c75-a4a99d48-97e58fe4.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-607]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p15/p15131736/s59523783/c6e5e02a-e2e30f50-3bb2f2f2-ab3882d4-b94c8610.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p15/p15131736/s58698919/4b3c3806-311dc11c-5c89f911-3f5b98e5-e5291eb6.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-608]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p15/p15185305/s50399800/ddf73353-2bd13067-b8238f63-0ee1fa88-b917f360.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p15/p15185305/s52381727/2b387f17-5b587878-eab57bc7-959a3a13-68001f85.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-611]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p15/p15378103/s51347031/4a04164c-bf7a47b2-39273bf3-6f841e34-278431eb.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p15/p15378103/s55163409/fa5caeed-1ed5d77a-c60b51dc-3251debf-af961447.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-634]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of consolidation. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p15/p15612622/s52026509/c84b7521-c75b5b52-ce5dc9c4-ec6fb779-a69ee6b1.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p15/p15612622/s53964812/77986392-2dac3752-b145c42b-2ba010de-d49de562.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-658]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16313531/s58455247/00c7d4e9-802b89b1-4bd840b3-e5fd2fc9-5d38566e.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16313531/s51111527/7d2c16b5-f6f795bc-48420b1a-415e3df8-8d442753.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-700]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of consolidation. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16313531/s58455247/00c7d4e9-802b89b1-4bd840b3-e5fd2fc9-5d38566e.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16313531/s51111527/7d2c16b5-f6f795bc-48420b1a-415e3df8-8d442753.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-700]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16334516/s57884279/320ec4bc-eb78eb77-b0088c51-9c38d6dc-d4677778.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16334516/s54611996/dd28d7b2-1303acd7-f23b52ab-4c24a9ab-f7296720.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-704]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16508811/s51985577/92104a74-78d6ae95-2b62a235-6f522a7c-13202ce0.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16508811/s59842151/430e6100-bae3aa34-d72132a7-2c61b505-8d2056bb.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-714]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16662264/s50991057/73c41d4f-3d37dadd-90729029-8999920d-77f956eb.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16662264/s54098643/cccfa82d-f56ed730-031b5dac-53bafa2b-f20378ad.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-720]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16751749/s57734204/b4cdbc46-c91c088a-014cfd36-cf752c93-ee08be9e.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16751749/s57787040/3d1d93b1-6b91fadd-c1b40a43-382aef3b-639c3488.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-732]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of consolidation. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16751749/s50195073/a94afe1d-af9219e1-0a7b8d8c-96262c1c-2f5b9d27.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16751749/s59245308/bcf2cc18-3401053b-113ae6db-daa24d50-08934ad9.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-733]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of consolidation. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16751749/s50195073/a94afe1d-af9219e1-0a7b8d8c-96262c1c-2f5b9d27.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16751749/s59245308/bcf2cc18-3401053b-113ae6db-daa24d50-08934ad9.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-733]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16751749/s50195073/a94afe1d-af9219e1-0a7b8d8c-96262c1c-2f5b9d27.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16751749/s59245308/bcf2cc18-3401053b-113ae6db-daa24d50-08934ad9.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-733]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16853729/s55739720/0b8983cf-a43a8452-8286dd0b-c2f8f8ba-c20f59fe.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16853729/s55420918/10b653ab-46de5007-fc3c0784-46a5a718-df7713ba.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-748]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16855430/s58797209/f63472c6-7fff6462-6df9fd25-2705bc5e-08edc54f.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p16/p16855430/s55801123/6de51358-d77c44f7-19d5cd49-0d32b6fa-15f71ae5.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "improving",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-749]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17112432/s50407173/2a0ce644-defed4a1-f1d778d7-8da5ba60-b5d8e243.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17112432/s56998267/be319f71-2b1ab302-55580f5d-ffc6e9e0-9e90689a.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-783]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumothorax. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17206933/s57141526/ec72dd86-36c802f0-20a909ca-8cbcc950-58733cd5.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17206933/s57571408/42ca3426-3c2dc573-7e2d42fe-aa2b9627-d888b47b.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-786]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of consolidation. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17206933/s57141526/ec72dd86-36c802f0-20a909ca-8cbcc950-58733cd5.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17206933/s57571408/42ca3426-3c2dc573-7e2d42fe-aa2b9627-d888b47b.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-786]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17340686/s59672442/67486f3c-a4ef806f-47d7541c-c1f00d2e-9c2f09fe.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17340686/s53956186/e199d51c-58d0356d-8ed19c9f-64ddb8ec-cd3fdc7a.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-799]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17770657/s58760728/cf2669d1-d8463824-d4bd7e26-0594a737-b89d33a4.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17770657/s53231312/e21e6bf0-7434a403-cec6f190-febf1e0a-d1b58336.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-825]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17838301/s56581318/8663aaa6-c83d78b8-ff43e08f-5ea79d11-e7cca33e.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17838301/s51924942/ce5b980a-39d861d4-c9184dee-08626cce-313eb439.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-833]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17838301/s51924942/ce5b980a-39d861d4-c9184dee-08626cce-313eb439.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p17/p17838301/s57255382/e5382fdb-74985bc4-2fb7ed30-c1708f5c-3f136ee4.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-834]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p18/p18322589/s56196471/3316f535-55fb94a2-9ced6576-f0cb4da1-83d82a05.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p18/p18322589/s57120453/5cc8a35c-430e95e2-0ece986e-69a22503-cc4bf39e.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-898]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p18/p18855147/s52163179/e556173d-1f21a53c-e214118c-39d134bc-23638059.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p18/p18855147/s51493934/82fb374b-501cd085-de6db06c-337de2f5-3f5d1157.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-945]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p18/p18906643/s59345475/2c2a8c78-1629add6-99b9b1e7-913212fa-faa7a8ac.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p18/p18906643/s56289226/4853dd84-ab86c09a-c204f25e-0a6f5d96-c03fc2f9.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-953]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19016834/s59970698/02088c92-5c6bfe4f-9fd824af-09b698c6-a2ac2b87.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19016834/s53515169/af20fb83-3a400800-9bd658e7-a793f80f-3762604f.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-970]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of consolidation. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19016834/s59970698/02088c92-5c6bfe4f-9fd824af-09b698c6-a2ac2b87.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19016834/s53515169/af20fb83-3a400800-9bd658e7-a793f80f-3762604f.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-970]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19061282/s52364562/4641a697-8f606459-f9c55881-5ef83f11-ea8af252.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19061282/s56963912/c9d87d11-a862527b-17c66e14-b5598f4f-2f5d28c5.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-977]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of pneumonia. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19182863/s55661010/010357e5-15fa3bea-a68903e4-6326524d-9a77b7db.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19182863/s51621424/d85667b8-c62dec2e-998b6abd-7f553ce3-75954004.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-987]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19182863/s58039954/702ea80d-45e751b9-f310cea5-80c50417-c80de945.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19182863/s52921410/270ee8d2-c6faa805-d42cb329-a3cd5951-c4b26875.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-988]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of consolidation. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19182863/s57618911/73ee1dc8-28fc5f5b-76e543d9-70afa724-b6dc8113.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19182863/s58039954/702ea80d-45e751b9-f310cea5-80c50417-c80de945.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-989]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19759491/s58459168/8fbf70c6-38be49b6-19536bcd-74b5e494-4ed5093f.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19759491/s52749045/897059e3-92ae214b-1458e44d-75eb5510-5098e1f8.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "stable",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-1029]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19759491/s59691119/5ad83d61-44f64350-e0fe61c9-c78a0842-626ecb1f.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/MIMIC-CXR-JPG/files/p19/p19759491/s58459168/8fbf70c6-38be49b6-19536bcd-74b5e494-4ed5093f.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "worsening",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[ms-cxr-t-tic] [test-1030]MS-CXR-T",
+        "question": "You are given two images: one reference image and one new image. Please identify the progression of edema. Options:\nA) stable\nB) worsening\nC) improving",
+        "pred": ""
+    }
+]

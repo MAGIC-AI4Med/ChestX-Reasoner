@@ -1,0 +1,1577 @@
+[
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64744/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64744/study1/view2_lateral.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64744/study1/view3_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64744_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) enlarged cardiomediastinum\nC) support devices\nD) pleural effusion",
+        "pred": "The first thing we look for in a chest radiograph is a lung lesion.  This can include:\r\nAtelectasis\r\nPneumothorax\r\nPleural effusion\r\nPneumonia\r\nMalignancy\r\nTrauma\r\nThere is no lung lesion in this case. The second thing we look for is an enlarged cardiomediastinum. This can include:\r\nCardiomegaly\r\nAneurysm\r\nVascular congestion\r\nDissection\r\nTransection\r\nKawasaki\r\nSickle Cell Disease\r\n\r\nThere is no enlarged cardiomediastinum in this case. The third and fourth things we look for are support devices (endotracheal tube, nasogastric tube, central venous line, pacemaker, defibrillator, chest tube, etc.) and pleural effusion. There are no support devices and no pleural effusion in this case. The fifth and final thing we look for are signs of pulmonary edema. This is usually seen in congestive heart failure, renal failure, or after pneumonia. There are no signs of pulmonary edema in this case."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64748/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64748/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64748_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) support devices\nC) lung lesion\nD) fracture",
+        "pred": "There are multiple findings, but only one is pulmonary edema. The others are:\r\nA) - an oxygen mask\r\nB) - an endotracheal tube\r\nC) - a chest tube\r\nD) - rib fractures\r\nE) - pneumothorax\r\nF) - pleural effusion\r\nG) - atelectasis\r\nH) - lung lesion\r\nI) - pneumonia\r\nJ) - pulmonary edema\r\nK) - pulmonary embolism\r\nL) - respiratory failure\r\nM) - tuberculosis\r\nN) - viral pneumonia\r\nO) - Wegener's granulomatosis\r\nP) - alveolar proteinosis\r\nQ) - bronchiectasis\r\nR) - silicosis\r\nS) - asbestosis\r\nT) - emphysema\r\nU) - lymphoma\r\nV) - pregnancy\r\nW) - postural orthostatic tachycardia\r\nX) - left upper extremity DVT\r\nY) - right upper extremity DVT\r\nZ) - cocaine overdose\r\nThe answer is \"J\" - pulmonary edema."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64751/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64751/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64751_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) support devices\nC) cardiomegaly\nD) fracture",
+        "pred": "First, we need to identify the abnormal findings. There are four findings noted on the chest x-ray:\r\n\r\n1. No finding\r\n2. Support Devices\r\n3. Cardiomegaly\r\n4. Fracture\r\n\r\nThe first two findings are obvious and not a problem. The third one can be seen with various cardiac conditions and the fourth one could be a fracture, but might also be an artifact. So, we need to do a careful examination of the entire chest and then make a final determination."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64766/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64766/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64766_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) support devices\nC) pneumonia\nD) atelectasis",
+        "pred": "First, we need to identify the abnormal findings. There are four findings:\r\nA) Lung Lesion\r\nB) Support Devices\r\nC) Pneumonia\r\nD) Atelectasis\r\n\r\nSecond, we need to identify the normal findings. There are two findings:\r\n1) Normal lung\r\n2) Normal Support Devices\r\n\r\nThird, we need to identify the location of the abnormal findings. There are three locations:\r\nA) Left\r\nB) Right\r\nC) Center\r\n\r\nFourth, we need to identify the type of disease. There are two types of disease:\r\nA) Cancer\r\nB) Cyst\r\n\r\nFifth, we need to identify the stage of the disease. There are five stages of lung cancer (0-IV).\r\nA) 0\r\nB) I\r\nC) II\r\nD) III\r\nE) IV\r\n\r\nAnd, we need to identify the staging of the cyst. There are two stages of a cyst:\r\nA) Stage 1\r\nB) Stage 2"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64782/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64782_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) pneumonia\nC) edema\nD) support devices",
+        "pred": "Step 1:\nThe first thing we notice is a complete consolidation (dark on the DDX) of the left lower lobe. This is a \"short circuit\" in the lingular segment of the left upper lobe, most likely due to an incompletely formed superior lobar bronchus or an abnormally high insertion of the superior lobar bronchus into the left main bronchus. This is a \"short circuit\" between the lingula and the bronchus intermedius. There are two arrows pointing at it. It has no atelectasis. It has no volume loss. It has no pleural effusion. It has no air bronchograms. This is a \"short circuit\" between the lingula and the bronchus intermedius. There are two arrows pointing at it. It is a complete consolidation of the lingula. There are two arrows pointing at it. It is a complete consolidation of the lingula. There are two arrows pointing at it. It is a complete consolidation of the lingula. There are two arrows pointing at it. It is a complete consolidation of the lingula. There are two arrows pointing at it. It is a complete consolidation of the lingula. There are two arrows pointing at it. It is a complete consolidation of the lingula. There are two arrows pointing at it."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64799/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64799/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64799_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) no finding\nC) pneumothorax\nD) support devices",
+        "pred": "There is air bronchograms in the retrocardiac region. That means there is an air filled bronchus in the retrocardiac region.  It is a triangular air filled structure. It is seen on a frontal chest radiograph in the retrocardiac region. It is a rare finding and can be confused with a pneumothorax by those who don't see it often. The patient doesn't have an pneumothorax."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64801/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64801/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64801_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) consolidation\nC) pleural effusion\nD) enlarged cardiomediastinum",
+        "pred": "The first thing we look for is an acute change in cardiac function, and we look for a change in cardiac structure in chronic cardiac dysfunction. Look at the left heart border. Is it blurred or sharp? Is the cardiac silhouette enlarged? Look at the lungs. Are there patchy opacities? Are there pleural effusions? Look at the mediastinum. Are the vessels enlarged? Are there changes in the cardiac silhouette? Step by step:\r\n1) Changes in cardiac structure (enlarged cardiomediastinum with/without blurred vascular markings)\r\n2) Changes in cardiac function (mild/moderate reduction in cardiac output and cardiac function, with/without blurred vascular markings and wider mediastinum)\r\n3) Presence of pulmonary edema and/or pleural effusions\r\n4) Identification of a cardiac cause (where appropriate)"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64810/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64810_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) pneumonia\nC) edema\nD) support devices",
+        "pred": "Step 1: Look at the image. There is a horizontal line on the chest x-ray from the 1st intercostal space to the 9th intercostal space. This is a sign of a large amount of pneumothorax. There is also loss of the normal mediastinal and tracheal lines - which are in the center of the chest, and a pleural line that is curved and concave. These findings are present in a pneumothorax. Step 2: Look at the image. There is a horizontal line on the chest x-ray from the 1st intercostal space to the 9th intercostal space. This is a sign of a large amount of pneumothorax. There is also loss of the normal mediastinal and tracheal lines - which are in the center of the chest, and a pleural line that is curved and concave. These findings are present in a pneumothorax. Step 3: Look at the image. There is a horizontal line on the chest x-ray from the 1st intercostal space to the 9th intercostal space. This is a sign of a large amount of pneumothorax. There is also loss of the normal mediastinal and tracheal lines - which are in the center of the chest, and a ple"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64818/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64818_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumonia\nB) support devices\nC) atelectasis\nD) consolidation",
+        "pred": "First, we need to identify the devices that are present. There are endotracheal tube, enteric tube, right subclavian central line, and a left-sided chest tube. The next step is to look for any consolidation (pneumonia) and atelectasis (collapse) around the devices and the subcutaneous emphysema. There is no pleural effusion."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64819/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64819/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64819_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) cardiomegaly\nC) support devices\nD) pneumonia",
+        "pred": "The first thing to look for is a pneumothorax.  If there is a pneumothorax, the next thing to look for is a lung edge (LUE).  If there is no pneumothorax, the next best option is to look for a lung edge (LUE).  If there is a LUE, the next best option is to look for a pleural line.  If there is no LUE, and no pleural line is found, then the last option is to look for a pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64820/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64820_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) lung lesion\nC) pneumonia\nD) pneumothorax",
+        "pred": "First, we need to identify the abnormality.  There are three possible findings:  lung lesion, pneumothorax, or support devices.  Lung lesions may be a mass or consolidation.  Pneumothorax is a radiolucency around the lung.  Support devices are usually seen in critically ill patients.  In this case, there is a chest tube."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64834/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64834/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64834_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) edema\nC) support devices\nD) lung opacity",
+        "pred": "The CXR findings are very suggestive of pulmonary edema.  Support devices, such as an endotracheal tube, nasogastric tube, or chest tube, may also be present.  In this case, however, there are no support devices.  There is also a left pleural effusion.  No pneumothorax is seen."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64843/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64843_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumonia\nB) consolidation\nC) fracture\nD) support devices",
+        "pred": "There is an old adage that \"the answer is obvious, it's the diagnosis that is difficult\".  Well, here we go.  The first question is \"what is the most likely finding in the CXR?\".  Is it pneumonia, atelectasis, bronchial wall thickening, bronchiectasis, malignancy, or some other finding?.  In this case, it is atelectasis.  What is the second question you might ask is \"does this patient have a history of malignancy?\".  If the answer is \" No\", then you might consider further evaluation of the atelectasis, bronchiectasis, or pneumonia.  If the answer is \" Yes\", then you might consider further evaluation of the atelectasis, bronchiectasis, or pneumonia.  In this case, the patient has a history of malignancy.  What might you do now? You might consider further evaluation of the atelectasis, bronchiectasis, or pneumonia?."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64848/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64848_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) support devices\nC) fracture\nD) no finding",
+        "pred": "First, we need a radiograph with a finding. There is no radiograph in this case."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64850/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64850/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64850_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pleural effusion\nC) pneumonia\nD) pneumothorax",
+        "pred": "First, we need to find a baseline chest X-ray. Look for the following: \r\n\r\n1)\tFindings of chronic heart failure (CHF) with pulmonary edema and/or pleural effusion.\r\n2)\tNo acute infiltrates, pneumothorax or pleural effusion.\r\n3)\tNo evidence of pneumonia.\r\n4)\tNormal cardiomediastinal silhouette and hila."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64851/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64851_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) pneumothorax\nC) atelectasis\nD) support devices",
+        "pred": "Step 1: Identification of the pleural line. Step 2: Identification of the visible pleural line and the area of the lung that lies distal to that line. Step 3: Finding the mediastinal line - a tangent along the anterior chest wall from the first rib to the sternum. Step 4: Finding the mediastinal dome - a tangent along the anterior chest wall from the first rib to the carina. Step 5: Finding the hilar points - a tangent from the superior mediastinal line to the inferior border of the pulmonary pedicle. Step 6: Finding the interlobar fissure - a tangent along the inferior border of the pulmonary pedicle to the superior edge of the minor fissure. Step 7: Finding the cardiophrenic sulcus - a tangent along the superior border of the pericardium to the minor fissure. Step 8: Finding the costophrenic recess - a tangent along the inferior border of the diaphragm to the minor fissure. Step 9: Finding the diaphragmatic cupola - a tangent along the anterior border of the diaphragm to the inferior edge of the minor fissure. Step 10: Finding the bronchial pulmonary segments - a tangent from the minor"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64867/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64867_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) fracture\nC) support devices\nD) enlarged cardiomediastinum",
+        "pred": "The first thing we look for in a chest x-ray is a lung lesion.  This may be seen in the case of a lung cancer, pneumonia, or pulmonary edema (among other causes).  If we see a lesion, we look for other signs of trauma - including fractures and instrumentation.  If we see a fracture, we look for signs of bony healing.  If we see support devices, we look for signs of complications.  If there is an enlarged cardiomediastinum, we look for evidence of vascular congestion, pericardial effusion, or other cardiac causes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64869/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64869/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64869_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pleural effusion\nC) enlarged cardiomediastinum\nD) edema",
+        "pred": "First, we need to look for an acute process that might be causing shortness of breath - the most common of which are pulmonary embolism, pneumonia, and CHF (coronary artery disease).  If there is no acute process, we need to consider chronic causes such as COPD, asthma, and lung fibrosis (usually interstitial).  If we are still without an answer, we should look for a disorder that may be causing a transudative pleural effusion such as CHF (heart failure), or a malignancy such as lung cancer.  Finally, we should consider a congenital cause such as Marfan's syndrome or Ehlers-Danlos syndrome.  \r\n\r\nOnce we have identified the most likely diagnosis, we need to determine if there are any radiographic findings associated with it.  In this case, there are associated findings such as hilar adenopathy and enlarged cardiomediastinum.  Also, there may be a specific finding such as a hilar mass or calcification which may point to a particular diagnosis.  The final step is to look at any laboratory tests that may help with the diagnosis.  In this case, the patient had a positive PPD and the radiologist performed a biopsy for the adenopathy - both"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64870/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64870/study1/view2_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64870/study1/view3_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64870_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) no finding\nC) consolidation\nD) cardiomegaly",
+        "pred": "The first thing to look for is a device (such as a cannula or a port) that is in place for routine medical care. Look for where this device is in the patient's body.  In this case, it is a cannula in the left internal jugular vein. The second step is to look for any other tubes or devices. In this case, there are EKG leads on the chest. The third and final step is to check for any tubes or devices that may have been placed during surgery. In this case, there were drainage devices present in the chest. Now that we have identified the tubes and devices, it is important to look at the patient's chest as a whole. Look at the cardiac, mediastinal, and hilar contours. Is there any deformity of the chest wall? Is there any pneumothorax? Is there any pleural effusion? Is there any focal consolidation?"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64875/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64875/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64875_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) atelectasis\nB) pleural effusion\nC) enlarged cardiomediastinum\nD) support devices",
+        "pred": "There is an old adage that \"the answer is in the picture\".  Here we go:\r\n\r\nFirst, we see a linear metallic device overlying the upper chest.  It is the PICC line.  It is a little hard to see because of the other metallic devices in the chest.  \r\n\r\nSecond, there is a chest tube with the tip near the left apex.  \r\n\r\nThird, there is a mediastinal drain.  \r\n\r\nFourth, there is a pericardial drainage catheter.  \r\n\r\nFifth, there is a nasogastric tube.  \r\n\r\nSixth, we see the endotracheal tube.  This is a little bit larger in diameter than usual because it has an additional function as a chest tube valve.  \r\n\r\nSeventh, there are the bilateral chest tube valves that are inflated by the anesthesiologist.  \r\n\r\nEighth, there are the bilateral chest tubes.  \r\n\r\nNinth, we see the pericardial effusion (dark).  This is a little bit larger than usual.  \r\n\r\nTenth, we see the pericardial drainage c"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64876/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64876/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64876_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) atelectasis\nC) support devices\nD) pneumothorax",
+        "pred": "The CXR findings are compatible with a pneumothorax (D).  But, where is the pleural line? In the normal CXR, the pleural line is a thin, black line that outlines the chest wall.  It is seen because air is present between the lung and chest wall and prevents the lung from completely collapsing.  In this case, it is absent.  Also noted is a slight shift of the mediastinum to the left.  This is common when air is present in the pleural space."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64877/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64877/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64877_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) lung lesion\nC) cardiomegaly\nD) support devices",
+        "pred": "Step 1: Look at the frontal view. Look for evidence of cardiomegaly. Look for evidence of an effusion. Look for consolidation. Step 2: Look at the lateral view. Look for evidence of fluid in the pleural space. Step 3: Use CT of the chest as a confirmatory tool."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64890/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64890_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) consolidation\nC) enlarged cardiomediastinum\nD) pleural effusion",
+        "pred": "First, we need to look for any support devices (endotracheal tube, nasogastric tube, central venous catheter), peripherally inserted central catheter (PICC), pacemaker, temperature probe, etc.  Look for any consolidation, enlarged cardiomediastinum, pleural effusion, etc.  Remember, the chest X-ray is an anatomical survey - we are looking for any abnormality, no matter how subtle.  Next, we need to look for any all of the above again, in addition to looking for any evidence of pulmonary edema.  This is important because pulmonary edema is a frequent cause of acute chest x-ray.  We need to look for signs of fluid overload, such as enlarged cardiomediastinum, vascular congestion, and pleural effusion.  If we see any of these findings, we need to consider the possibility of pulmonary edema and treat appropriately.  In this case, there are no signs of pulmonary edema, so we do not need to consider this possibility.  Finally, we need to look for any all of the above again, while also looking for any evidence of pneumothorax.  This is important because pneumothorax is a frequent cause of acute chest x"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64892/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64892/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64892_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) pleural effusion\nC) pneumonia\nD) support devices",
+        "pred": "Step 1: Look at the frontal view. Look for evidence of a fracture. Look for evidence of a pneumothorax. Look for evidence of a pleural effusion. Look for evidence of a pulmonary edema. \r\n\r\nFrontal view:\r\n- AP window sign\r\n- Emphysema\r\n- Pleural effusion\r\n- Pleural thickening\r\n- Pneumothorax\r\n- Pneumomediastinum\r\n- Pulmonary edema\r\n\r\nAfter the frontal view, move on to the lateral view. \r\n\r\nStep 2: Look at the lateral view. Look for evidence of a fracture. Look for evidence of a pneumothorax. Look for evidence of a pleural effusion. Look for evidence of a pulmonary edema. \r\n\r\nLateral view:\r\n- Pleural effusion\r\n- Pleural thickening\r\n- Pneumothorax\r\n- Pneumomediastinum\r\n- Pulmonary edema\r\n\r\nFinal Diagnosis:\r\n- Fracture\r\n- Pleural effusion\r\n- Pleural thickening\r\n- Pneumothorax\r\n- Pneumomediastinum\r\n- Pulmonary edema"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64895/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64895/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64895_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) support devices\nC) lung lesion\nD) cardiomegaly",
+        "pred": "The first thing to look for in any chest radiograph is the presence of pleural effusion. This can be seen in a variety of locations:\r\nA) in a horizontal fashion, following the curvature of the chest wall, across the lower part of the image, usually above the level of the diaphragm.\r\nB) in a curvilinear fashion usually in the mid-lung region, following the path of the interlobular fissure.\r\nC) in a crescentic fashion, usually in the upper part of the image, above the level of the diaphragm.\r\nD) in an irregular fashion, for example, in the case of loculated effusion, or loculated pneumothorax.\r\n\r\nThe second feature to look for is the presence of a support device, such as an endotracheal tube, nasogastric tube, Swan-Ganz catheter, chest tube, or pacemaker lead. These devices are often seen in the proper clinical setting. For example, an endotracheal tube would be expected in an intubated patient. A chest tube would be expected in a patient with pleural effusion. A pacemaker would be expected in a patient with a history of cardiac disease.\r\n\r\nThe third feature to look for is the presence of a lung lesion or consolidation."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64897/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64897_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) pleural effusion\nC) support devices\nD) atelectasis",
+        "pred": "First, we need to identify the abnormality.  There are three possible findings:\r\n\r\n1) Right atrial enlargement\r\n2) Cardiomegaly\r\n3) Left ventricular enlargement\r\n\r\nLet's start with the first one.\r\n\r\nRight atrial enlargement can be demonstrated by a double right heart border, widening of the carina, right atrial enlargement, or a right atrial mass.  Common causes in this case are cardiac tamponade due to an aortic aneurysm, or an atrial myxoma.\r\n\r\nCardiomegaly can be seen on a frontal chest radiograph.  It is defined by a cardiothoracic ratio greater than 0. 5, and is often seen in the setting of congestive heart failure.\r\n\r\nLeft ventricular enlargement can be demonstrated by a double left heart border, widening of the left ventricular intracavitary septum, or by identifying the presence of left ventricular masses.  The most common cause in this case is congestive heart failure.\r\n\r\nThe second finding is also present in this case, and is defined as follows.\r\n\r\nDefinition of cardiomegaly: cardiothoracic ratio >0. 5\r\n\r\nThe"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64901/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64901_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) enlarged cardiomediastinum\nC) support devices\nD) pleural effusion",
+        "pred": "The first thing to look for is a pneumothorax.  That is not present.  The next thing to look for is a change in the cardiomediastinal silhouette.  That also is not present.  The final \"D\" is an effusion.  That also is not present.  So, the first step is to look for the absence of a pneumothorax and effusion.  That leaves the question open as to whether there is a change in the cardiomediastinal silhouette.  In this case, there is an increase in the cardiomediastinal silhouette.  That can be caused by a number of things.  In this case, it is consistent with a post-operative change.  The final question is \"Is there an increase in the cardiomediastinal silhouette due to a post-operative change?\"  That also is not present.  So, the answer is \"No.\""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64906/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64906_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) no finding\nC) consolidation\nD) support devices",
+        "pred": "The first thing to look for in a CXR is a lung opacity.  This may be a consolidation (pneumonia), atelectasis, or a pleural effusion.  Next, we look for any foreign bodies, tubes, or catheters.  Finally, we look for any abnormalities of the cardiac and mediastinal structures.  In this case, the first two findings were not applicable, so we looked for foreign bodies, and found a catheter in the left subclavian vein.  We then looked for any abnormalities of the mediastinal structures, and found one of the tubes was deviated to the right.  From this, we can infer that there may be a malpositioned central line."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64910/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64910/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64910_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) support devices\nC) no finding\nD) consolidation",
+        "pred": "Step 1: Look for evidence of pneumothorax. Look for evidence of pneumothorax on the left side of the chest.  This is the most common location.  If there is no evidence of a pneumothorax here, move on to the next step.  Step 2: Look for evidence of pneumothorax on the right side of the chest.  If there is no evidence of a pneumothorax, move on to the next step.  Step 3: Look for evidence of pneumothorax on both sides of the chest. If there is no evidence of a pneumothorax, move on to the next step. Step 4: Look for evidence of hemothorax on either side. If there is no evidence of hemothorax, move on to the next step. Step 5: Look for evidence of pleural effusion on either side. If there is no evidence of pleural effusion, move on to the next step. Step 6: Look for evidence of pulmonary edema. If there is no evidence of pulmonary edema, move on to the next step. Step 7: Look for evidence of atelectasis. If there is no evidence of atelectasis, move on to the next step. Step 8: Look for evidence of consolidation. If there is no evidence of consolid"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64913/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64913/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64913_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) atelectasis\nB) support devices\nC) no finding\nD) pneumothorax",
+        "pred": "First, we need to identify the abnormal findings. There are four findings:\r\nAtelectasis is the collapse or closure of the lung resulting in reduced or absent gas exchange. It is seen on x-ray as an area of increased density, which may be sharply or poorly defined, and may or may not have an elevated diaphragm. There are two types of atelectasis:\r\ncomplete or complete atelectasis\r\npartial atelectasis or partial upper lobe or lower lobe atelectasis\r\n\r\nThe most common cause of atelectasis is the failure of the diaphragm to descend properly, resulting in an inability to move the chest wall, which may cause atelectasis of the entire lung or a portion of it (atelectasis of the upper or lower lobe). Other causes include bronchial obstruction, mucous plugging, foreign body aspiration, and muscular weakness. Atelectasis can also occur when pleural effusion or congestive heart failure cause pressure to build up behind the diaphragm, preventing proper expansion. Atelectasis is a common finding after general anesthesia and can occur in up to 80% of all post-operative patients.\r\n\r\nSupport Devices\r\nA tracheostomy is a tube that is placed through the mouth and"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64920/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64920_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) support devices\nC) pneumonia\nD) fracture",
+        "pred": "The first thing to look for is a clear lung, and then look for any signs of consolidation (whether it is atelectasis or pneumonia).  Look for any lines or tubes that are present.  Look for any evidence of pleural effusion.  This patient has a clear lung and no signs of consolidation, so we look for other findings to explain the patient's shortness of breath."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64932/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64932_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumonia\nB) atelectasis\nC) pleural effusion\nD) support devices",
+        "pred": "Step 1: Look at the frontal and lateral chest X-ray. Look for a foreign body (e. g. catheter, pacemaker, or ventricular shunt), and look for a lung opacity. If there is a foreign body, you can move on to the next step. If there is a lung opacity, you can move on to the next step. Step 2: Look at the frontal chest X-ray. Look for a foreign body (e. g. catheter, pacemaker, or ventricular shunt), and look for a lung opacity. If there is a foreign body, you can move on to the next step. If there is a lung opacity, you can move on to the next step. Step 3: Look at the frontal chest X-ray. Look for a foreign body (e. g. catheter, pacemaker, or ventricular shunt), and look for a lung opacity. If there is a foreign body, you can move on to the next step. If there is a lung opacity, you can move on to the next step. Step 4: Look at the frontal chest X-ray. Look for a foreign body (e. g. catheter, pacemaker, or ventricular shunt), and look for a lung opacity. If there is a foreign body, you can move on to the"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64940/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64940/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64940_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) lung lesion\nC) support devices\nD) consolidation",
+        "pred": "There is an old fracture of the lateral right clavicle."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64962/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64962_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pneumonia\nC) cardiomegaly\nD) lung lesion",
+        "pred": "First, we need to identify the abnormality. There are three possible findings: \nA) Support Devices - this includes the endotracheal tube, nasogastric tube, mediastinal/peritoneal catheters, EKG leads and any other tubes or devices that are external to the patient. All of these devices can be seen on a chest X-ray.\nB) Pneumonia - this includes any consolidation (fluffy or streaky), focal or patchy opacities or any other features of pneumonia.\nC) Cardiomegaly - this includes any enlargement of the heart.\nD) Lung Lesion - this includes any nodules, masses, areas of collapse, or any other lung pathology. \nNow, let's use the PA chest X-ray from the case to work through the steps. The first thing we look for in a chest X-ray are the support devices. In this case, there is a tube coming from the mouth and a tube going into the abdomen; these are the endotracheal tube and nasogastric tube respectively. There is also a catheter that is external to the patient, which is the Swan-Ganz catheter. This is a special catheter that is inserted into the main pulmonary artery"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64985/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64985/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64985_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) enlarged cardiomediastinum\nC) pneumonia\nD) consolidation",
+        "pred": "First, we need to identify the abnormal findings. There are three findings in this chest x-ray:\r\n\r\n1. Support Devices.\r\n2. Enlarged Cardiomediastinum\r\n3. Pneumonia or Consolidation There are multiple possible causes for each of these findings. For the Support Devices, we have an intra-aortic balloon pump. For the Enlarged Cardiomediastinum, there is cardiomegaly with left ventricular enlargement. This is often caused by an acute myocardial infarction. For the Pneumonia or Consolidation, there is a right lower lobe pneumonia. The radiographic appearance is a reticulonodular or alveolar infiltrate.  The last step is to think about the differential diagnosis. This is a broad differential, and we don't need to think about all of the possibilities. However, it is important to keep in mind the different possibilities for each finding. In the case above, the differential diagnosis for the Support Devices might include an intra-aortic balloon pump, a Swan-Ganz catheter, a pulmonary artery catheter, or a coronary arterial catheter. The differential for Enlarged Cardiomediastinum might include left vent"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64995/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64995_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) support devices\nC) fracture\nD) pneumothorax",
+        "pred": "First, we need to identify the abnormal findings. There are four findings on this chest X-ray:\r\n\r\n1. Fracture\r\n2. Pneumothorax\r\n3. Support Devices\r\n4. Pneumonia/Edema"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65024/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65024/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65024_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) lung lesion\nC) support devices\nD) fracture",
+        "pred": "The first thing we look for in a chest x-ray is a pneumothorax.  If there is no pneumothorax, we look at the lung fields.  There is no cavitation or consolidation (100% of x-rays), nor pleural effusion (50% of x-rays).  In this case, there is a lesion in the left upper lung.  In about 2/3 of cases, there is a single lesion, while in 1/3 of cases, there are multiple lesions.  Complications of lung cancer, such as fractures, are present in 10% of cases.  In this case, there is no fracture.  In conclusion, the differential is a lesion with multiple lesions in 1/3 of cases, no pneumothorax, and no cavitation or consolidation.  The most probable diagnosis is lung cancer."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65029/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65029/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65029_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) lung lesion\nC) enlarged cardiomediastinum\nD) support devices",
+        "pred": "Step 1: Look for any peripheral lung opacities. Look carefully, there is a small \"edge\" of lung tissue at the periphery of the image.  Step 2: Look for lines and tubes.  Step 3: Look for a pneumothorax.  Step 4: Look for a pleural effusion.  Step 5: Look for a pulmonary edema.  Step 6: Look for a lung lesion, focal or diffuse.  Step 7: Look for a widened mediastinum or a new cardiac silhouette.  Step 8: Look for evidence of hemothorax or bony injury.  Step 9: Look for rib fractures, especially multiple or displaced fractures.  Step 10: Look for a pulmonary contusion.  Step 11: Look for a fractured catheter or cannula.  Step 12: Look for any other unexpected findings that may be found in the periphery of the X-ray."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65041/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65041_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) support devices\nC) lung opacity\nD) pneumothorax",
+        "pred": "First, we need to look at the support devices.  There are endotracheal tube (ETT), enteric tube (ET), right internal jugular central venous line (IJCVL), left peripherally inserted central catheter (PICC), and a left pleural drain.  Next, we look at the lung opacity.  This is a normal chest X-ray.  There is no pneumothorax.  Finally, we look at the cardiomediastinum.  It is not enlarged."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65043/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65043_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) no finding\nC) support devices\nD) edema",
+        "pred": "This is a CT scan, not a plain film. There is no \"edema\"."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65062/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65062_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pneumothorax\nC) no finding\nD) pleural effusion",
+        "pred": "First, we need to look for a) support devices (oxygen mask, tubing, etc.) and any pneumothorax.  There is no pneumothorax, so we can move on.\nThe second image shows a \"deep sulcus\" sign. This is a term used when there is an indentation in the costal margin.  This is often seen in the presence of a pneumothorax, but may also be seen in normal patients.  If we look carefully, we can see the \"sulcus\" sign without a pneumothorax.  In this case, the patient did have a pneumothorax, but it was not depicted on this study.  The \"sulcus\" sign has been described as a useful way to describe a costal compression that is felt in patients with pneumothorax.  It is a subtle finding, but very suggestive of a pneumothorax when seen.  Again, we can move on to the other options.\nThe third image shows a pleural effusion. This is a major finding, but we have already seen the pneumothorax and the \"sulcus\" sign.  This effusion appears to be loculated, as it is separated from the chest wall and is anterior.   This is a dangerous sign, as a significant amount of pressure can build up and cause the lung to collapse"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65076/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65076_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) support devices\nC) atelectasis\nD) pneumonia",
+        "pred": "First, we need to look for pneumothorax.  There are no signs of pneumothorax in this chest x-ray.  Next, we look for support devices (endotracheal tube, endoglottic tube, chest tubes, central venous line), there were no support devices seen.  Atelectasis is the collapse or closure of a lung resulting in reduced or absent gas exchange.  This can be seen as linear or wedge shaped areas of decreased radiolucency in the lung parenchyma.  Pneumonia is an inflammation of the lung tissue, most commonly caused by viral or bacterial infection.  If you see any of these findings, you should suspect a superimposed diagnosis.  A superimposed diagnosis occurs when a person who has a pre-existing condition develops a new condition.  In this case, the patient had a pre-existing bronchiectasis and emphysema.  After developing pneumonia, the patient had a chest x-ray that showed new wedge shaped areas of decreased radiolucency.  This, D) is atelectasis.  The patient did not have pneumothorax, or support devices, and did not have signs of pneumonia, so we can exclude these options.  We are left with a"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65141/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65141_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) atelectasis\nB) support devices\nC) pneumonia\nD) lung lesion",
+        "pred": "First, we need to identify the abnormality. There are 4 findings:  Atelectasis, Support Devices, Pneumonia, Lung Lesion."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65148/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65148_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pneumonia\nC) consolidation\nD) fracture",
+        "pred": "First, we need to identify the abnormal findings. There are three findings in this chest X-ray:\r\n\r\n1. Left basilar retrocardiac opacity\r\n2. Right basilar opacity\r\n3. Right IJ Swan-Ganz catheter tip in the pulmonary outflow tract (pulmonary artery).\r\n\r\nThe first step is to assess the cardiac silhouette. There are many ways to do this. One method is to visualize the silhouette and then look for a \"double density\" (left atrium) to the left and to the right of the cardiac silhouette. If there is no double density, then the cardiac silhouette appears \"singular\" or \"globular\". This suggests an enlarged heart. If there is a double density, then the silhouette is \"normal\" or \"water bottle\" shaped. If there is a triple density, then the patient probably has a pericardial effusion. If the cardiac silhouette is normal, then we look for other abnormalities to help diagnose the patient's problem. One method is to look for basilar consolidations. This is the second step. If there are no basilar consolidations, then we look for pulmonary edema. If there are basilar consolidations, then we look for pneum"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65152/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65152/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65152_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) atelectasis\nC) enlarged cardiomediastinum\nD) support devices",
+        "pred": "Step 1: Look at the frontal view. Look for a right or left aortic arch. Look for a right or left cardiac apex. Look for the right ventricle to left ventricle to see which is the largest. Look for a RVOT or LVOT to see which is the largest. Look for an obvious mass or gross globular enlargement of the heart. Look for evidence of pericardial effusion. Look for any mediastinal masses which may be displacing the cardiac or vascular structures. Step 2: Look at the lateral view. Look for a posterior or anterior aortic arch. Look for a posterior or anterior cardiac apex. Look for the right ventricle to left ventricle to see which is the largest. Look for an obvious mass or gross globular enlargement of the heart. Look for evidence of pericardial effusion. Look for any mediastinal masses which may be displacing the cardiac or vascular structures."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65153/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65153_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) edema\nC) pneumonia\nD) pneumothorax",
+        "pred": "First, we need to identify the abnormal findings. There are four findings: 1. Support Devices, 2. Edema, 3. Pneumonia, and 4. Pneumothorax. "
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65184/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65184_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) consolidation\nC) support devices\nD) no finding",
+        "pred": "The first thing we look for is an obvious pleural effusion.  That takes up space in the pleural cavity - and, it is usually visible in more than one radiographic projection.  Next, we look for a consolidation.  That takes up space in the lung - and, it is usually visible in more than one radiographic projection.  Next, we look for a support device.  That is usually visible in a frontal projection and does not change with inspiration or expiration.  So, we are left with only one finding an isolated consolidation."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65186/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65186_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) no finding\nC) fracture\nD) support devices",
+        "pred": "Step 1: Look at the entire image. Look for any obvious abnormalities. Step 2: Look for any fractures. Step 3: Look for any bony abnormalities. Step 4: Look for any widening or narrowing of the mediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65215/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65215_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pneumonia\nC) lung opacity\nD) fracture",
+        "pred": "First, we need to identify the abnormal findings. There are three findings in this chest X-ray: - Options A and B are both true. - A fracture is not mentioned in the options. "
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65217/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65217_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) edema\nB) pneumonia\nC) support devices\nD) lung opacity",
+        "pred": "Step 1:\nThe first step is to look at the image and see if there are any obvious abnormalities. This includes technical aspects such as poor inspiratory effort, poor penetration, or obscured by overlying devices. \nThe next step is to assess the lungs. Look for consolidation, air bronchograms, pleural effusion, pneumothorax, and signs of pulmonary edema. \nThe third step is to check for abnormalities of the cardiac and mediastinal contours. Look for the obvious abnormalities, such as displacement of the aortic arch. \nThe next step is to check the bony structures. Look for fractures, dislocations, or osteolysis of bones. \nThe final step is to assess the soft tissues. Look for hematomas or abscesses. \nThe above is a summary of the Socransky method for reading a chest radiograph."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65219/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65219_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) support devices\nC) cardiomegaly\nD) edema",
+        "pred": "The CXR shows an enlarged heart.  There is no pneumothorax.  Pulmonary vasculature is mildly prominent.  This is seen in acute CHF."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65220/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65220_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) support devices\nC) fracture\nD) lung opacity",
+        "pred": "The first thing to look for in any radiograph is fractures.  But there are no fractures here.  There is cardiomegaly.  But there are no signs of pulmonary edema.  There is a device overlying the chest.  But it is external to the patient.  There is air in the soft tissues of the neck and mediastinum consistent with pneumomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65232/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65232_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) pneumothorax\nC) support devices\nD) enlarged cardiomediastinum",
+        "pred": "The first thing we look for in a chest x-ray is a fracture.  A nondisplaced rib fracture is seen on this film.  There is a clear pleural line on the left side, and no lung markings are seen peripheral to this line.  This is a pneumothorax.  A large pneumothorax would shift the mediastinum to the contralateral side, while a smaller pneumothorax would shift the lateral ribs on the affected side.  In this case, there is a shift of the mediastinum to the left.  This would suggest that the pneumothorax is not causing significant displacement of the heart.  The left lung appears clear.  The right lung is clear.  There is no evidence of failure.  The endotracheal tube terminates above the carina.  This is a good position for the tube."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65238/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65238_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) support devices\nC) atelectasis\nD) enlarged cardiomediastinum",
+        "pred": "First, we need to identify the supine from the erect chest x-ray. The easiest way is to look for the spinous processes. If they are all we can see, then the patient is supine. If they are partially visible, then the patient is either supine or decubitus. If they are all we can see, then the patient is probably lying on his left side. If they are partially visible, then the patient is either supine or decubitus. If they are all we can see, then the patient is probably lying on his right side."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64750/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64750/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64750_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) cardiomegaly\nC) no finding\nD) pneumonia",
+        "pred": "The first thing we need to notice is that the cardiomediastinal silhouette is enlarged.  This is a chest radiograph, not a longitudinal radiograph.  It is important to remember that the heart is located in the mediastinum, between the two lungs.  The second thing to notice is that the heart is also enlarged.  This does not always have to be the case, but it is a common finding.  In this case, the heart is enlarged, but the left heart border is silhouetted out, as it is with atelectasis.  Notice that there is no effusion.  There is no pneumothorax.  There is no evidence of pneumonia.  There is no vascular congestion.  This is a negative chest radiograph."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64928/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64928/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64928_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) pneumonia\nC) cardiomegaly\nD) lung lesion",
+        "pred": "The CXR findings are all in the head.  There is no mediastinal widening.  There is no pleural effusion.  There is no air under the diaphragm.  So, we are left with only 3 options.  Since the patient has cardiomegaly, we know there is no pneumonia.  There are no lung lesions.  So, we are left with option B, pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64990/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64990/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64990_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumonia\nB) lung opacity\nC) support devices\nD) no finding",
+        "pred": "First, we need a focal consolidation. Second, we need to exclude a pleural effusion. Third, we need to exclude a pneumothorax. Fourth, we need to exclude pulmonary edema. Fifth, we need to exclude a mass. Sixth, we need to exclude a lung nodule. Seventh, we need to exclude a lung nodule."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65017/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65017_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) pleural effusion\nC) enlarged cardiomediastinum\nD) no finding",
+        "pred": "The first two options are obviously not the case here, as there is no fracture or pleural effusion seen. The 3rd option is obviously true, as there is a wide mediastinum. But wait a minute - there is no displacement of the trachea, no narrowing of the airway, no signs of respiratory distress - so what is the 4th option? There is a sign of a right-sided aortic arch."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64792/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64792/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64792_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) no finding\nC) fracture\nD) edema",
+        "pred": "This is an AP chest x-ray.  There is a \"black stripe\" - a horizontal line that crosses over the vertebral bodies in the midline.  This is the spinous process.  In the case of a fracture, it may not be seen.  \r\n\r\nThe arrowheads indicate the spinous processes.  The arrows point to the spinous processes \"disappearing\" due to the displacement of the fracture.  \r\n\r\nThere is a slight displacement of the spinous processes, which may be misinterpreted as a fracture.  This is the result of the pressure of the osteopenic bone on the x-ray film.  There is a slight displacement of the spinous processes.  This is the result of the pressure of the osteopenic bone on the x-ray film.  \r\n\r\nThe arrowheads indicate the spinous processes.  The arrows point to the spinous processes \"disappearing\" due to the displacement of the fracture.  \r\n\r\nThe arrowheads indicate the spinous processes.  The arrows point to the spinous processes \"disappearing\" due to the displacement of the fracture.  \r\n\r\nThe arrowheads indicate the spinous processes.  The arrows point to the spinous"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65003/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65003/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65003_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) consolidation\nC) edema\nD) enlarged cardiomediastinum",
+        "pred": "The first thing to look for is a change in the size or shape of the heart.  This can be a subtle finding, such as a slight indentation of the ascending aorta, or a slight increase in the diameter of the pulmonary outflow tract.  If there is a change in the contour of the heart, you should look for other associated findings which may suggest the diagnosis of a particular disease.  For instance, if the patient has a history of atrial fibrillation, any change in the size or shape of the heart should be treated as a possible myocardial infarction.  The second thing to look for is changes in the size or shape of the major vessels.  This includes changes in the contour of the aortic knob, and the contour of the pulmonary artery, or any evidence of pulmonary hypertension.  Look also for any evidence of pulmonary embolism, aortic aneurysm or dissection, and mediastinal mass.  Once you have completed your preliminary assessment of cardiovascular findings, you should then look for any evidence of lung disease.  This includes a subtle pulmonary edema or pleural effusion, evidence of pneumonia, or evidence of pulmonary embolism.  Once you have determined that the patient is without any acute cardi"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65180/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65180_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) enlarged cardiomediastinum\nC) cardiomegaly\nD) no finding",
+        "pred": "The first two options are obviously correct.  A 3rd ventricle, posterior fossa, and corpus callosum are not seen on a CT of the head and neck."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65083/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65083_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) cardiomegaly\nC) lung lesion\nD) support devices",
+        "pred": "There is an intubation device present.  This is a visual finding.  It is a tube which connects the mouth to the ventilator.   It is seen in various positions in the different intubation devices.  In this case, it is a linear metallic device with a central lucency.  This is a tracheal tube with a central suction port.  It is used to suction secretions and mucous from the trachea.  It is a very common piece of equipment used in the intubated patient."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64996/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64996/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64996_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) cardiomegaly\nC) pneumonia\nD) edema",
+        "pred": "The main finding in this CXR is cardiomegaly.  That means the heart is enlarged.  There is no edema.  There is no pneumonia.  The bronchovascular markings are normal.  The bones and soft tissues are unremarkable.  \r\n\r\nNow, let's look at the differential diagnosis for cardiomegaly. It includes:\r\nA) congestive heart failure (CHF)\r\nB) cardiomyopathy\r\nC) pericardial effusion\r\nD) pericardial thickening\r\nE) dilated cardiomyopathy\r\nF) restrictive cardiomyopathy\r\nG) untreated hypertension\r\nH) pseudo-cardiomegaly\r\nI) pericardial cyst\r\nJ) pericardial metastasis\r\nK) localized cardiomegaly"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64840/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64840/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64840_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) no finding\nC) atelectasis\nD) pneumothorax",
+        "pred": "First, we need to identify the devices that are present. There are three devices present:\r\n\r\n1) ET tube\r\n2) NG tube\r\n3) UAC\r\n\r\nThe ET tube is positioned low, approximately 1.5 cm from the carina. The UAC is in an appropriate position, approximately at the level of T8. The NG tube is also in good position."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64955/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64955/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64955_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) edema\nB) no finding\nC) pleural effusion\nD) pneumonia",
+        "pred": "The CXR findings are very suggestive of pneumonia.  Pleural effusion is seen in approximately 50% of cases.  \r\nA chest X-ray may also be normal in the early stages of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64756/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64756/study1/view2_lateral.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64756/study1/view3_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64756_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) consolidation\nC) pneumothorax\nD) lung opacity",
+        "pred": "The CXR shows an ill defined opacity in the RLL.  There is no evidence of a pneumothorax.  Given the history of trauma, a pulmonary contusion may be the underlying pathology.  However, an infection cannot be excluded."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64933/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64933/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64933_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) atelectasis\nC) no finding\nD) lung opacity",
+        "pred": "The key to reading a chest radiograph is to do it in a systematic manner.  Look for edges, lines, and angles.  Use your imagination; don't get stuck on the fact that you are looking at a \"film\".   Look for edges, lines, and angles.  Use your imagination; don't get stuck on the fact that you are looking at a \"film\"."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65109/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65109_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) edema\nC) enlarged cardiomediastinum\nD) cardiomegaly",
+        "pred": "The first thing to look at is the cardiac silhouette. Is it normal? If not, it should be further investigated. The second thing to look at is the lungs. Are there any signs of edema? If not, it should be further investigated. The third thing to look at is the pleura. Are there any signs of effusion? If not, it should be further investigated. The fourth thing to look at is the bones. Are there any signs of disrupted bones? If not, it should be further investigated. The fifth thing to look at is the soft tissues. Are there any signs of swelling? If not, it should be further investigated. The sixth thing to look at is the venous access. Is the line in a good position? If not, it should be further investigated. The seventh thing to look at is the monitoring devices. Are they in a good position? If not, it should be further investigated. The eighth and final thing to look at is the overall presentation. Does the patient look sick? If not, it should be further investigated."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64785/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64785/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64785_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) edema\nB) lung opacity\nC) cardiomegaly\nD) no finding",
+        "pred": "The CXR shows increased interstitial markings.  This is a very general finding, and needs further clinical correlation.  \r\n\r\nThink about the causes of increased interstitial markings:\r\n- infection\r\n- edema (pulmonary or systemic)\r\n- inflammation\r\n- interstitial lung disease"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65074/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65074_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) pleural effusion\nC) lung opacity\nD) enlarged cardiomediastinum",
+        "pred": "The first thing to look for is an obvious pneumothorax - and there isn't one.  There is pleural effusion (B), which is often seen post-operatively, along with enlarged cardiomediastinum (D).  But, there is also a lung opacity (C) - which may be atelectasis, contusion, or hemorrhage."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64880/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64880_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) edema\nC) enlarged cardiomediastinum\nD) pneumonia",
+        "pred": "The first thing to look for in any chest radiograph is an enlarged mediastinum.  Look at the right side - is it wider than the left side?  If so, the aorta is probably dilated.  Look at the left side - is it wider than the right side?  If so, there may be a pulmonary mass or lymphadenopathy.  The main bronchi have bulging upper borders.  The interlobar artery is usually the most prominent single feature.  The right heart border is usually more prominent than the left.  There is often a double density to the right heart border.  Is there any deviation of the trachea?  Is the trachea seen as two parallel thin white lines?  Is the left main bronchus visible as two parallel thin white lines?  Look over the top of the mediastinum - is there an impression of a prominent aortic arch?  Look at the bottom of the mediastinum - are there two prominent convexities?  The first impression is often the right descending aorta, just above the right main bronchus.  The left arch is usually less prominent.  On lateral views, the aortic arch is usually more than 2cm from the tracheal air column.  There is an impression of a double density to the trachea - is the right side seen as two"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64857/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64857/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64857_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) cardiomegaly\nC) fracture\nD) lung opacity",
+        "pred": "The CXR findings are present in a significant portion of patients with cardiomegaly.  It is important to consider other causes of cardiomegaly.  If you look at the image, you may initially think \"fracture\", but this was not confirmed on subsequent imaging.  The most common cause of cardiomegaly is pericardial effusion.  Other causes include pericardial tumor, constrictive pericarditis, and idiopathic.  It is important to consider other causes of cardiomegaly in the differential.  A quick look at the image may make you think \"pneumonia\", but it is unlikely that this would be the case, given the lack of other findings on the image and the patient's overall health.  It is important to look at the image as a whole, and not just one specific finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64806/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64806/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64806_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) atelectasis\nB) fracture\nC) no finding\nD) cardiomegaly",
+        "pred": "This CXR has air space disease in the left base.  The next step is to determine if this is atelectasis, pneumonia, or pulmonary edema."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64859/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64859/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64859_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) lung opacity\nC) pneumonia\nD) edema",
+        "pred": "Step 1: Identify the abnormality. There is a \"pneumothorax\" - but it is not a normal pneumothorax. What is it then?\r\n\r\n Step 2: Determine the source of the abnormal air. It is clearly visible on the chest x-ray that there is a pleural line separating the air in the pleural space from the air in the abnormal location.\r\n\r\n Step 3: Consider the differential diagnosis. What could cause a pneumothorax?"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64957/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64957/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64957_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) cardiomegaly\nC) no finding\nD) atelectasis",
+        "pred": "First, we need to look for any support devices (endotracheal tube, nasogastric tube, chest tube, central venous line) and any gross abnormalities such as cardiomegaly or pneumothorax.  This patient has a central venous line in place (external jugular CVL) and cardiomegaly. \r\n\r\nSecond, we need to look for any abnormalities that might explain this patient\u2019s shortness of breath. In this case, there is no focal consolidation or pleural effusion. There is no evidence of pneumothorax.  However, there is an abnormal convexity at the right heart border. \r\n\r\nThird, we need to consider the limitations of this study.  There is no evidence of pneumothorax, but there is a mild shift of the mediastinum to the left.  This suggests that there may be underlying atelectasis or a space-occupying process in the left lung that is causing the shortness of breath.  This patient\u2019s CVL tip is in the right atrium.  No additional information was given about the patient\u2019s medical history or previous conditions."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64775/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64775/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64775_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) support devices\nC) fracture\nD) no finding",
+        "pred": "The first thing we look for in a chest x-ray is a change in the normal anatomy. This includes fractures, pneumothorax, lung collapse, or mediastinal shift.  We look for an abnormal density or shape where there should be none, and we look for an abnormal space where there should be none.  In this case, there is a line running from the middle of the clavicle, to the middle of the fifth rib.  There is no space between the clavicle and the rib, and this is abnormal.  This abnormal finding suggests a fracture of the clavicle."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65072/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65072_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) cardiomegaly\nC) no finding\nD) atelectasis",
+        "pred": "The main finding in this chest x-ray is cardiomegaly.  One possible cause of cardiomegaly is a pericardial effusion.  There is also atelectasis (partial collapse) of the lung.  There is no pleural effusion."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64809/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64809/study1/view2_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64809/study1/view3_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64809_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) no finding\nC) pneumothorax\nD) cardiomegaly",
+        "pred": "First, we need to look at the support devices. There are endotracheal tube (ETT), enteric tube (ET), right internal jugular central venous line (IJCVL), left peripherally inserted central catheter (PICC), right PICC, and left basilar chest tube.  \r\n\r\nSecond, we need to look at the no findings. It may seem like a lot, but it is important to remember that the patient is a child and may have a lot of tubing and lines. Third, there is pneumothorax.  \r\n\r\nLastly, we need to look at cardiomegaly. It is important to remember that the patient is a child, and the heart is magnified by the X-ray.  \r\n\r\nSo, there are a lot of things to look at with the chest X-ray. It is important to remember each one and their importance."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64976/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64976/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64976_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) pleural effusion\nC) consolidation\nD) lung opacity",
+        "pred": "The CXR findings are very suggestive of a left pleural effusion in association with a left lower lobe consolidation.  There is a loss of the normal clear space above the left hemidiaphragm and overlying consolidation.  Notice the shift of the mediastinum towards the right.  This suggests that there is an associated loss of volume on the left.  Notice the leptomeningeal enhancement over the left side of the spinal cord.  This is suggestive of meningitis.  The CXR is further suggestive of a left pleural effusion.  There is an associated loss of the clear space above the left hemidiaphragm.  Notice the shift of the mediastinum towards the right.  This suggests that there is an associated volume loss on the left.  There is an associated loss of the clear space above the left hemidiaphragm.  Notice the leptomeningeal enhancement over the left side of the spinal cord.  This is suggestive of meningitis.  The CXR is further suggestive of a left pleural effusion.  There is an associated loss of the clear space above the left hemidiaphragm.  Notice the shift of the mediastinum towards the right.  This suggests that there is an associated volume loss on the left.  There is an associated loss of the clear space"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64814/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64814/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64814_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) edema\nC) fracture\nD) no finding",
+        "pred": "The CXR shows an enlarged cardiac silhouette (A, B, C).  Since the patient has a history of fracture, you should consider a fracture of the sternum with a displacement of the bony fragment into the mediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65006/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65006/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65006_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) edema\nC) atelectasis\nD) fracture",
+        "pred": "The first thing to look for is a fracture.  A lucency is seen, that is displaced, and does not have a sclerotic margin.  There is an associated soft tissue density.  This is a fracture."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65002/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65002/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65002_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) pneumothorax\nC) lung opacity\nD) atelectasis",
+        "pred": "The first thing to look for is a lung edge, because of the black pleura sign. In the absence of lung edge, we look for a pleural line. The absence of a lung edge or pleural line, we look for a sharp angle between the chest wall and the lung. If there is any of these, we look for a visible pleural line, and if there is a pleural line, we look for the absence of lung markings peripheral to the line."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64926/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64926/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64926_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) no finding\nC) pneumonia\nD) support devices",
+        "pred": "First, we need to look at the X-ray. "
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64769/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64769_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) no finding\nC) edema\nD) cardiomegaly",
+        "pred": "First, we need to identify the devices that are present. There are three devices present in this chest x-ray: ET tube, NG tube, and UAC. Remember, UAC stands for umbilical arterial catheter - not umbilical venous catheter. The umbilical venous catheter is used to remove blood from the baby, and is not typically seen in this type of case."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64886/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64886/study1/view2_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64886/study1/view3_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64886_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) enlarged cardiomediastinum\nC) no finding\nD) atelectasis",
+        "pred": "The first thing we need to notice is that the patient has a broken arm.  Broken bones always deform the adjacent lung.  This deformation is either pleural or parenchymal.  If the deformation is only pleural, then we need to differentiate between the different types of pleural deformations.\r\n\r\nThese include:\r\nFracture\r\nChest wall hematoma\r\nChylothorax\r\nMalignancy\r\nGravitational (perfusion atelectasis)\r\nLymphangitic spread\r\nSurgical emphysema\r\nPneumothorax\r\nPleural effusion\r\nPneumomediastinum\r\nPneumopericardium\r\nPseudopneumothorax\r\nPneumoperitoneum\r\n\r\nIf the deformation is only parenchymal, there are many causes.  Here are some of the most common:\r\nPneumonia (bacterial, viral, fungal)\r\nMalignancy (primary, metastatic)\r\nTrauma (contusion, laceration, rib fracture, subcutaneous emphysema, pneumothorax)\r\nPericardial effusion\r\nHydropneumothorax\r\nPulmonary embolism\r\nMalignant pleural eff"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65013/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65013/study1/view2_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65013/study1/view3_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65013_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pleural effusion\nC) no finding\nD) enlarged cardiomediastinum",
+        "pred": "The first thing we look for is an 'edge'. \r\n\r\n1) Is there an 'edge'? \r\n2) If there is an 'edge', is it well defined or poorly defined? A well defined 'edge' is called a 'sclerotic' margin. A poorly defined 'edge' is called a 'non-sclerotic' margin. \r\n\r\n3) If there is an 'edge', is it the result of a restoration of a previous condition? \r\n\r\n4) If there is an 'edge', is it due to a bony fragment?"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64972/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64972/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64972_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) atelectasis\nC) pleural effusion\nD) no finding",
+        "pred": "The first thing we need to look for is an obvious pneumothorax. If there is one, we need to look closer for subtle signs of pneumothorax. If there is no obvious sign, we need to look for other findings.  Atelectasis is a partial or complete collapse of the lung. It can be caused by many different things, such as mucous plugging, blood clots, and tumors.  Pleural effusion is a buildup of fluid in the pleural space. It can be caused by many different medical conditions. "
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65009/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65009/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65009_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) cardiomegaly\nC) fracture\nD) pneumothorax",
+        "pred": "The CXR findings are compatible with a Hampton's Hump ( Option C ).  \r\nA Hampton's Hump is a triangular pleural-based lesion that is seen in the posterior pleural surface of the lung.  It is a chest radiographic sign of pulmonary embolism.  The lesion is a pleural-based lesion that is seen in the posterior pleural surface of the lung.  The lesion consists of a triangular pleural-based pulmonary opacity with smooth borders.  The base of the lesion is adjacent to the pleura.  \r\nThe lesion is caused by embolic occlusion of the pulmonary artery.  The embolus physically obstructs the pulmonary arterial flow.  Hampton's Hump is a late finding in acute pulmonary embolism.  The embolus takes time to cause ischemia and infarction in the affected lung.  The triangular pleural-based lesion represents infarction and hemorrhage in the affected lung secondary to embolic obstruction of the pulmonary artery.  \r\n\r\n\r\nReferences:\r\n1)\tClerk, Brenda.  \"Hampton's Hump.\"  eMedicine Clinical Knowledge Base.  Last updated July"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64825/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64825_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) lung lesion\nC) cardiomegaly\nD) atelectasis",
+        "pred": "The CXR findings are present in 50% of cases of aortic coarctation. The most common finding is a mediastinal widening. The second most common finding is aortic arch atherosclerosis. The third most common finding is cardiomegaly. The fourth most common finding is aortic dissection. The fifth most common finding is aortic aneurysm. Keep in mind that the radiologist should look for any abnormalities in the mediastinum and lungs. \r\n\r\nReference: Radiologic findings of aortic coarctation"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64914/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64914_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) no finding\nC) edema\nD) atelectasis",
+        "pred": "This CXR has an increased interstitial marking.  There is no evidence of pneumothorax or fracture.  There is no focal consolidation.  There is no pleural effusion.  Pulmonary vasculature is slightly enlarged."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64774/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64774_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) support devices\nC) no finding\nD) pleural effusion",
+        "pred": "First, we need to look for an enlarged cardiomediastinum. This is a common finding in many conditions, and is often seen in association with other clinical signs and symptoms. If it is found, the next step is to look for a history of instrumentation or trauma - that is, support devices. These may include an endotracheal tube (ETT), a nasogastric (NG) tube, a mediastinal drain, or other catheters. If there is no associated history of instrumentation or trauma, then we need to look for a history of sepsis or pneumonia. If these conditions are present, then the patient should be treated for them, and a repeat chest radiograph should be obtained. If there is no finding, or no history, then we need to look for pleural effusion. This is often a \"sentinel\" finding, and may be associated with instrumentation or trauma. It is a good idea to obtain a chest radiograph in these cases, even if there are no symptoms."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64905/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64905/study1/view2_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64905/study1/view3_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64905_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) no finding\nC) cardiomegaly\nD) lung lesion",
+        "pred": "The first thing to look for in any chest radiograph is the presence of a foreign body. This includes needles, wires, or any other radiopaque objects. Complications such as fractured needles or wires, or damage to adjacent organs may also be visible. \r\n\r\nThe second step is to look for any abnormalities of the lung parenchyma. This includes consolidation, pneumothorax, hemorrhage, or fluid within the air spaces. The third step is to look for any abnormalities of the chest wall, such as fractures, bone fractures, or foreign bodies. The fourth and final step is to look at the rest of the mediastinum. This includes the heart, large blood vessels, esophagus, trachea, and the thoracic spine. The thoracic spine is often overlooked, even though spinal fractures are associated with 2-5% of all chest trauma. \r\n\r\nThe most common cause of trauma to the thoracic spine is blunt force to the back, or injury to the vertebral column. This may cause fractures and/or damage to the spinal cord, intervertebral disc, or spinal cord. Cervical spine injuries are usually caused by hyperextension of the neck. Any"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64923/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64923/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64923_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) support devices\nC) no finding\nD) lung opacity",
+        "pred": "The first thing to look for in any chest radiograph is cardiomegaly.  This is usually a simple diagnosis, but sometimes the heart is obscured by other findings.  Look closely at the shape of the heart - it should be globular and the apex should be at or above the level of the manubriosternal joint.  The left atrium should be larger than the right, resulting in a more rounded appearance.  The main pulmonary artery should be enlarged, resulting in an enlarged right paratracheal stripe.  Pulmonary vascular markings should be visible, but not as clearly defined.  There should be no calcification.  A pericardial effusion may be seen by noting the shape of the left atrium; if present, it should be described as a \"double\" or \"triple\" contour to the left atrium.  The left ventricle is the most commonly dilated ventricle, and may result in a \"double\" left heart border.  The left ventricular margin is often hypertrophied, resulting in a \"double contour\" to the left heart border.  The right ventricle is less commonly dilated, and when it is, it is often secondary to left-sided obstructive disease.  In the newborn, the most common cause of cardiomegaly is a"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64760/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64760_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) consolidation\nC) cardiomegaly\nD) pneumothorax",
+        "pred": "The CXR shows an enlarged heart silhouette.  There is no pneumothorax.  There is no pleural effusion.  There is no focal airspace consolidation.  What is left?"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64788/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64788/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64788_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) consolidation\nC) enlarged cardiomediastinum\nD) support devices",
+        "pred": "There is an opacity in the left lower lobe - that is a finding.  No additional information is given."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64868/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64868_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) edema\nC) consolidation\nD) no finding",
+        "pred": "First, we need to identify the abnormality. There are three findings in this chest x-ray: \nA) Support Devices. There are two types of support devices. One is a peripheral device, usually a cannula or a port-a-cath. The other type of support device is a central line, usually a venous line that is used for administering fluids, medications or for hemodialysis. In this case, there are central lines in place. \nB) Edema. This is a buildup of fluid in the interstitial spaces. It can be caused by many different types of problems. It is important to remember that the most common cause of pulmonary edema is cardiac problems. \nC) Consolidation. This is a sign of pneumonia. It is important to remember that bacteria, viruses, and other types of infections can cause consolidation. A special type of infection called aspiration pneumonia usually affects the lower lobes of the lungs. \nD) No finding. This is a problem in a person that is not related to pulmonary edema or consolidation."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64925/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64925_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pneumothorax\nC) atelectasis\nD) no finding",
+        "pred": "First, we need to identify the devices that are present. There are three devices present: ET tube, NG tube, and UAC.  The ET tube is positioned too low, and the UAC is too high.  The NG tube is in the appropriate position.  The first thing to do would be to advance the ET tube by at least 5 cm."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64822/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64822_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) enlarged cardiomediastinum\nC) atelectasis\nD) consolidation",
+        "pred": "The first thing to look for in any chest radiograph is an abnormality in the mediastinum. In this case, we are looking for an enlarged mediastinum. The mediastinum is the space in the chest that contains the heart, great vessels, esophagus, trachea, thymus, lymph nodes, and connective tissue. The mediastinum is important because it tells you a lot about what is going on inside the chest. Enlargement of the mediastinum suggests a pathologic change in the chest.  Next, you look for a focal consolidation.  Focal areas of increased density on a chest radiograph are usually an indication of inflammation or infection.  It is important to remember that focal consolidation can be a very subtle finding, and the radiograph may be normal.  In this case, you are looking for a focal consolidation within the atelectatic lung.  There is a great differential for a focal consolidation, but it is not appropriate for this case.  Finally, you look for an air bronchogram.  An air bronchogram is a curved area of air within a lung lesion.  This finding is best seen on a lateral chest radiograph, and it is almost pathognomonic for a focal cons"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64956/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64956/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64956_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) cardiomegaly\nC) pneumothorax\nD) pneumonia",
+        "pred": "The first thing to look for in any chest radiograph is an abnormality in the cardiothoracic ratio. In this case, there is an increased cardiothoracic ratio of 0.57 (normal is 0. 42-0. 50).  After that, you look for lung parenchyma changes. In this case, the lungs are clear.  Next, you look for pleural effusion. There is none in this case.  Finally, you look for bony changes. There is no rib fracture in this case."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64811/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64811/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64811_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) lung lesion\nC) no finding\nD) pneumonia",
+        "pred": "First, we need to identify the normal lung. There are multiple findings, but we need to look for a homogeneous (like-colored) area that is clear and sharply defined s/p surgery or trauma. Look at the left lung - there is a dark area running horizontally (across the entire image) that has an inner well-defined margin and an outer ill-defined margin.  This is a horizontal fissure.  Look carefully at the upper and lower areas of the fissure - there is a difference in the vascularity of the areas.  Now, look at the dark area - it is avascular.  This avascular area is surrounded by vessels and therefore has a \"ring of fire\" appearance.  Look carefully at the area - it is a horizontal fissure."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64846/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64846/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64846_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) no finding\nC) cardiomegaly\nD) pleural effusion",
+        "pred": "The acronym C-T ratio is often used as a diagnostic tool.  One study reported the normal C-T ratio to be 1. 96 \u00b1 1. 13.  The C-T ratio should not be less than 1. 5.  The lower limit of normal for the C-T ratio is 1. 7.  The C-T ratio is usually greater than 1. 95 in the presence of acute pulmonary embolism.  A ratio greater than 2. 0 is seen in 92% of patients with pulmonary embolism.  A ratio of less than 1. 5 excludes the diagnosis of acute pulmonary embolism.  The C-T ratio should not be greater than 2. 5.  The C-T ratio is less reliable in the presence of cardiomegaly.  The most common confounding factor is a history of chronic heart failure.  In a patient with acute chest pain, a C-T ratio greater than 2. 0 is highly specific for pulmonary embolism.  However, the sensitivity is low.  The C-T ratio should be interpreted in the context of other clinical findings and radiographic findings.  \r\n\r\n\r\n\r\nThe Radiographic features can be summarized as follows"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64981/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64981/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64981_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) support devices\nC) lung opacity\nD) consolidation",
+        "pred": "The first thing to look for in any chest radiograph is the presence of wires, tubes, or other support devices.  If there are no support devices, you should look for lung opacity.  Lung opacity can be a sign of underlying disease, healing, or infection.  If there is no lung opacity, you should look for consolidation - which is a sign of pneumonia or lung tissue death.  In this case, there is a lung opacity, described below."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64855/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64855/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64855_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) atelectasis\nC) support devices\nD) no finding",
+        "pred": "There is a lung opacity. Lung Opacity can be an indication of consolidation, atelectasis, or pleural fluid collection."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65050/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65050/study1/view2_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65050_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) fracture\nC) no finding\nD) atelectasis",
+        "pred": "The first thing to look for is an obvious pneumothorax.  In this case, there is no pneumothorax.  The second thing to look for is a fracture.  Again, there is no fracture in this case.  The third and most important thing to look for is atelectasis.  This is the most common finding in chest radiographs that are \"normal\".  Can you see where this is going?  The key is to look for the absence of atelectasis.  If there is no atelectasis, then the lung fields are black.  If there is atelectasis, the lung fields will be \"white\" or less radiopaque than the adjacent soft tissues.  The left chest has no atelectasis and is therefore normal."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64805/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64805_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) fracture\nC) enlarged cardiomediastinum\nD) no finding",
+        "pred": "The first thing we look for in a chest x-ray is a consolidation (red arrow).  This could be due to pneumonia, pulmonary edema, atelectasis, or pulmonary hemorrhage.  We look for a smooth contour, and one that is uniform in density.  Consolidations are generally round, but may be wedge-shaped.  They may also show linear branching (interlobular septal thickening), which is commonly seen in pulmonary edema.  \r\n\r\nSecondly, we look for a fracture (yellow arrow).  This is often seen as a linear lucency that crosses the bone at an angle.  It is important to look for any displacement, or the degree of displacement.  If there is no displacement, it is likely a simple transverse fracture.  A minimally displaced fracture is still significant, and should be treated with a sling and a suture.  A markedly displaced fracture is likely to require orthopedic surgery.  It is important to look at the bone as a whole, and to look at the proximal and distal aspects of the fracture.  If there is no fracture, then we look for a mass (blue arrow).  A mass is likely to be smooth, rounded, and hom"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64874/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64874/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64874_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) pneumonia\nC) lung lesion\nD) no finding",
+        "pred": "The first thing we need to know is that there is air around the heart, that is outside of the thoracic cavity.  Remember the axial image and the dotted white line - the air should not be there.   Next we need to consider the other findings, one at a time.  Pneumothorax is unlikely because there is no mediastinal shift.  Pneumonia is unlikely because it is unilateral.  A lung lesion is unlikely because it is not focal.  The final possibility is a ruptured cyst, but we need more information, such as the patient&#39;s history, to make a diagnosis."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64943/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64943/study1/view2_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64943_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) edema\nB) enlarged cardiomediastinum\nC) pleural effusion\nD) no finding",
+        "pred": "The CXR shows an enlarged cardiomediastinum.  That means the heart and the area around it are larger than normal.  So, option A is correct."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64919/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64919_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) lung lesion\nC) no finding\nD) pneumonia",
+        "pred": "Fracture. This is a fracture of the inferior margin of the posterior arch of the fifth right rib."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64755/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64755/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64755_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) lung opacity\nC) cardiomegaly\nD) lung lesion",
+        "pred": "The 4th image shows an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64816/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64816_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) pleural effusion\nC) enlarged cardiomediastinum\nD) lung opacity",
+        "pred": "The CXR findings are very suggestive of a left pleural effusion.  There is no evidence of lung opacity, nor is there any mediastinal widening.  There is a large pleural effusion with a meniscus, which is best seen on the lateral chest radiograph."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64828/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64828/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64828_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) support devices\nC) consolidation\nD) lung opacity",
+        "pred": "There is a consolidation in the left chest, and a fracture of the left 5th rib.  Support devices are present.  There is also a pneumothorax on the left side."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64888/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64888_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) atelectasis\nB) lung opacity\nC) pneumonia\nD) pleural effusion",
+        "pred": "The opacity is seen in the left lower lobe.  There is also blunting of the costophrenic angle.  This finding is very suspicious for a pleural effusion.  There is no evidence of pneumothorax.  There are no air bronchograms, and no evidence of consolidation.  There is no evidence of adynamic ileus. The radiologic findings, in conjunction with the history, are highly suspicious for a pleural effusion.  There is no evidence of pneumothorax.  There are no air bronchograms, and no evidence of consolidation.  There is no evidence of adynamic ileus. The radiologic findings, in conjunction with the history, are highly suspicious for a pleural effusion."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64935/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64935_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) lung lesion\nC) no finding\nD) support devices",
+        "pred": "Step 1: Look at the image. There is a horizontal line labeled \"A-B\" - that is the diameter of a chest tube (1). Look at the middle of the chest and see the blue line labeled \"C-D\" - that is the diameter of a finger (1). Step 2: Look at the image. There is a horizontal line labeled \"A-B\" - that is the diameter of a chest tube (1). Look at the middle of the chest and see the blue line labeled \"C-D\" - that is the diameter of a finger (1). Step 3: Look at the image. There is a horizontal line labeled \"A-B\" - that is the diameter of a chest tube (1). Look at the middle of the chest and see the blue line labeled \"C-D\" - that is the diameter of a finger (1). Step 4: Look at the image. There is a horizontal line labeled \"A-B\" - that is the diameter of a chest tube (1). Look at the middle of the chest and see the blue line labeled \"C-D\" - that is the diameter of a finger (1). Step 5: Look at the image. There is a horizontal line labeled \"A-B\" - that is the diameter of a chest tube (1). Look"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64937/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64937_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) edema\nB) lung opacity\nC) pneumonia\nD) pneumothorax",
+        "pred": "The first thing to look for is an overall shape and contour of the chest. This helps determine if there is an equal volume of both lungs, and if there are any abnormalities. Look for any irregularities of the rib cage. This includes any signs of fracture, destruction, or hyperostosis. Look for any evidence of pneumothorax. This is best done by looking for lung markings and identifying the pleural line. Any depression of the rib cage may indicate a potential fracture, especially if there is a loss of the normal contour of the rib, or if there is an abnormal orientation of the rib. Look for any evidence of a soft-tissue mass. This includes any irregularities of the mediastinum, mediastinal masses, or evidence of pleural effusion. Look for any evidence of consolidation. This includes identifying areas of increased density in the lung field, as well as any areas of decreased density. Look for any evidence of bronchiectasis. This includes any tubular shape to the lung, as well as any evidence of thickened walls of the bronchi. Look for any evidence of cavitation. This includes any areas of discontinuity of the lung parenchyma, as well as any signs of parenchymal distortion. Q: Which finding is in this chest X-ray? A: The finding"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64959/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64959/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64959_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) pneumonia\nC) edema\nD) cardiomegaly",
+        "pred": "The CXR shows an enlarged heart without failure.  There is no pneumonia.  There is no pulmonary edema.  There are no pleural effusions.  The patient has a history of sarcoidosis, with bilateral hilar adenopathy and interstitial lung disease.  This patient has a new, asymptomatic, large pericardial effusion.  What is the most likely cause of the effusion? Congestive heart failure."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65000/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65000_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) atelectasis\nC) pneumothorax\nD) edema",
+        "pred": "First, we need a focal lung opacity. Second, the lung should be collapsed - atelectasis.  Third, there should be a pleural line and a lack of lung markings.  Fourth, there should be no shift of the mediastinum.  Fifth, if there is no evidence of trauma, a pneumothorax should be present."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65051/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65051/study1/view2_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65051_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) support devices\nC) lung opacity\nD) pneumonia",
+        "pred": "The first thing to look for in any chest radiograph is a pneumothorax.  There isn't any in this case.  The second thing to look for is evidence of pleural effusion.  That doesn't look like much of a fluid on the left side.  The third thing to look for is a focal consolidation or diffuse pulmonary edema.  That doesn't fit this case.  The fourth thing to look for is a pulmonary nodule.  That doesn't fit this case.  The fifth and final thing to look for is a linear opacity.  That doesn't fit this case.  Total: 0 abnormalities found in this chest radiograph."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64764/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64764/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64764_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) lung lesion\nC) fracture\nD) enlarged cardiomediastinum",
+        "pred": "The CXR findings are very suggestive of a pleural effusion.  However, a lung lesion cannot be excluded.  Therefore, the differential diagnosis would include both.  Enlarged cardiomediastinum suggests a pericardial effusion.  No fracture is evident in this case."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64787/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64787/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64787_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) cardiomegaly\nC) pneumonia\nD) enlarged cardiomediastinum",
+        "pred": "The first thing we need to do is to look at the frontal chest x-ray.  There are multiple findings, but only one is an abnormality.  That is an enlarged cardiac sillouhette.  There is no pneumothorax, nor pulmonary edema.  The left heart border is not obscured (in fact it is accentuated) and the right heart border is normal.  There is no mediastinal shift.  So we can scratch off options A, B and C.  Next we need to look at the patient's history.  This patient does not have a history of cardiac disease nor does he have symptoms.  Therefore option D is incorrect.  In a known case of congestive heart failure option C would be correct.  However, in this case it is an incidental finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64789/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64789_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) support devices\nC) enlarged cardiomediastinum\nD) pneumothorax",
+        "pred": "First, we need to find a fracture. There is no fracture in the chest radiograph. Next, we need to look for support devices that might have failed or caused the problem. There is no mention of any support devices in the image. Finally, we need to look for signs of an enlarged cardiomediastinum. There is no evidence of that in the image. The final possibility is a pneumothorax, but we need to look for evidence of that in the image. There is no evidence of a pneumothorax. Therefore, the answer has to be \"No finding.\""
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64794/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64794/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64794_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) edema\nB) enlarged cardiomediastinum\nC) pleural effusion\nD) consolidation",
+        "pred": "The CXR findings of a left ventricular aneurysm are an enlarged cardiomediastinum with a globular or flask-shaped appearance. The normal left ventricle is not visible and the left atrium is visible."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64872/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64872/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64872_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) fracture\nC) pneumonia\nD) pleural effusion",
+        "pred": "First, we need to look for any signs of pneumonia.  \r\n\r\nThe ECG machine has 3 leads:\r\nRed: Left\r\nGreen: Right\r\nYellow: Negative\r\n\r\nThe leads are placed in the following locations:\r\n\r\nRed: Feedback to the heart\r\nGreen: Feedback to the right ventricle\r\nYellow: Feedback to the negative pole of the V1-V6 leads\r\n\r\nThe leads V1-V6 are placed as follows:\r\nV1 on the right side of the upper chest (lateral to the sternum)\r\nV2 on the left side of the upper chest (lateral to the sternum)\r\nV3 on the right side of the mid-clavicular line\r\nV4 on the left side of the mid-clavicular line\r\nV5 on the right side of the paraspinal line\r\nV6 on the left side of the paraspinal line\r\n\r\nThe leads are going to tell the ECG machine about the electrical activity of the heart.  The electrical activity travels in certain pathways.  If there is a fracture of the sternum, then the electrical activity might not be able to travel to the leads properly.  This could change the interpretation of the ECG, and could make it"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64894/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64894/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64894_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) no finding\nC) edema\nD) pleural effusion",
+        "pred": "This is a CT scan, not a chest radiograph.  There is no mediastinal widening (B), cardiomegaly (C), or pleural effusion (D)."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64907/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64907/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64907_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) pneumonia\nC) lung opacity\nD) enlarged cardiomediastinum",
+        "pred": "The first thing to look for in any chest radiograph is an abnormality in the lung tissue. There are many possible findings, but only a few are common. These findings include: \r\n1) consolidation (or density) in the lung parenchyma\r\n2) atelectasis\r\n3) pulmonary edema\r\n4) pleural effusion\r\n5) pneumothorax\r\n6) lung nodules\r\n7) enlarged cardiomediastinum\r\n8) aortic calcification\r\n9) hyperinflation\r\n10) lung nodules\r\n11) Paget's disease\r\n12) Sarcoidosis\r\n13) Wegener's granulomatosis\r\n14) Tuberculosis\r\n15) Emphysema\r\n16) interstitial lung disease\r\n17) Lymphoma\r\n18) metastases\r\n19) bacterial pneumonia\r\n20) viral pneumonia\r\n21) fungal pneumonia\r\n22) mycoplasma pneumonia\r\n23) chlamydia pneumonia\r\n24) histo (PCP)\r\n25) legionella\r\n26) necrotizing fasci"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64911/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64911_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) enlarged cardiomediastinum\nC) edema\nD) pleural effusion",
+        "pred": "The CXR findings are very suggestive of a left ventricular dilatation.  There is no evidence of pulmonary edema.  The mediastinum is widened.  The most likely explanation is a cardiomyopathy.  This patient had no history of any cardiac disease."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64921/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64921/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64921_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) no finding\nC) pneumonia\nD) enlarged cardiomediastinum",
+        "pred": "The first thing we look for is a fracture.  If there is none, we look for an acute pulmonary process.  In this case, there is a fracture (lateral left 6th rib).  What is the most common injury associated with rib fractures? Pneumothorax.  This is a complication of the fracture.  The next thing to look for is an increased mediastinum.  This may also be a complication of the fracture.  The last thing to look for is a pleural effusion.  This may also be a complication of the fracture.  The pleural effusion may be due to a hemothorax."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65001/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65001_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) lung lesion\nC) enlarged cardiomediastinum\nD) pleural effusion",
+        "pred": "First, we need to find a LLL pneumonia. Look where the bronchus are: Right upper, Right middle, Right lower lobe. See?  There is a RML pneumonia. Confusing?  It seems like there is a RLL pneumonia, but the bronchi are pointing at the RML. It is likely that the RML pneumonia is caused by aspiration of the RLL bronchi."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65023/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65023_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) edema\nC) enlarged cardiomediastinum\nD) support devices",
+        "pred": "A chest x-ray with a \"pneumothorax\" - really an artifact or air outside the chest wall, should cause you to look for a needle or catheter.  A \"skin fold\" should look like a shadow of the top of the patient's head extending from one side of the film to the other."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65087/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65087/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65087_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) lung opacity\nC) enlarged cardiomediastinum\nD) cardiomegaly",
+        "pred": "The first thing we need to do is to look at the plain film.  There are multiple findings there.  Lets start with the easiest to see.  \u00bb Fracture.  It may be subtle, and therefore requires careful scrutiny.  Look for discontinuity of the bony cortex.  In this case, there is no fracture.  \u00bb Lung Opacity.  This may also be subtle.  Look for increased density in the lung field.  Again, there is no opacity in this case.  \u00bb Enlarged Cardiomediastinum.  This may also be subtle.  Look for a widened mediastinum.  There is no enlargement in this case.  \u00bb Cardiomegaly.  This may also be subtle.  Look for an enlarged heart shadow.  There is no enlargement of the heart in this case."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65158/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65158_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) edema\nC) enlarged cardiomediastinum\nD) cardiomegaly",
+        "pred": "The first thing to look for in any chest radiograph is cardiomegaly.  This is an important first step in many diagnoses.  In this case, there is no cardiomegaly.  There is a second finding.  There is pulmonary venous congestion.  This is a dilation of the pulmonary veins due to an increase in right heart pressure.  There are many causes, but the most common is pulmonary embolism (PE).  This patient, however, does not have a history of PE and therefore represents a different pathologic process.  The last finding is a new mediastinal contour.  This is a subtle leftward deviation of the trachea that is due to a right-sided structure that has enlarged or obstructed the normal anterior tracheal air column.  There is no evidence of mediastinal mass or lymphadenopathy in this patient.  This finding is associated with the most common cause of this constellation of symptoms:  thyroid enlargement."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65177/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65177_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) lung lesion\nC) no finding\nD) cardiomegaly",
+        "pred": "This is a case of cardiomegaly (enlarged heart)"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65199/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65199_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) edema\nC) pneumothorax\nD) support devices",
+        "pred": "Step 1:\nA) Look for any calcifications in the mediastinum. If there are no calcifications in the mediastinum, you should look for an enlarged cardiomediastinum. If there are calcifications in the mediastinum, you should look for an acute aortic syndrome. Calcifications in the mediastinum are most commonly associated with aortic aneurysm or dissection. These are neurosarcoidosis, as well as Behcet's disease. \r\n\r\n\r\nIf there is no acute aortic syndrome, you should look for an enlarged cardiomediastinum. If there is an enlarged cardiomediastinum, you should look for signs of cardiac tamponade (such as a pericardial effusion). If there is an acute aortic syndrome, you should look for an acute aortic syndrome. Calcifications in the mediastinum are most commonly associated with aortic aneurysm or dissection. These are neurosarcoidosis, as well as Behcet's disease. \r\n\r\n\r\nIf there is no acute aortic syndrome, you should look for an enlarged cardiomediastinum. If there is an enlarged cardiomediast"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65200/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65200_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) pneumonia\nC) no finding\nD) support devices",
+        "pred": "Step 1:\nThe chest x-ray shows an enlarged cardiomediastinum. What is the most common cause of an enlarged cardiomediastinum?\nThe chest x-ray shows pneumonia. What is the most common cause of pneumonia?\nThe chest x-ray shows no acute abnormality. What is the most common cause of no acute abnormality on a chest radiograph? As you can see, there are many options to choose from in Step 1.  However, only one finding is correct.  That is because the chest x-ray shows only an enlarged cardiomediastinum and there is no pneumonia, pleural effusion, or other acute abnormality.  There is a discussion about this in the differential diagnosis."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65237/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65237_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) lung opacity\nC) enlarged cardiomediastinum\nD) fracture",
+        "pred": "The first thing we look for in a chest radiograph is cardiomegaly.  This can be a cause for concern in this patient, since it is so prevalent.  The second finding is a lung opacity.  This may be a result of pleural effusion due to CHF or pneumonia.  There is no other finding of note here.  Moving on to the next step, an enlarged cardiomediastinum is seen.  This is a finding seen in pericardial effusion.  Since we know that the patient has CHF, pericardial effusion is of concern.  Next we see a fracture.  This is not a common finding in CHF or pulmonary embolism.  Therefore, it is of small concern.  In summary, this is a chest radiograph with cardiomegaly, lung opacity, enlarged cardiomediastinum, and fracture."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65192/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "fracture",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65192_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) pneumothorax\nC) pneumonia\nD) fracture",
+        "pred": "The CXR has options A, B, C, and D.  The differential includes:\r\n\r\nA) Acute myocardial infarction\r\nB) Aortic dissection\r\nC) Aneurysm\r\nD) Myocarditis\r\nD) Pericarditis\r\nD) Tamponade\r\nE) Anemia\r\nF) Hypothyroidism\r\nG) Renal failure\r\nH) Acute pulmonary embolism\r\nH) Obstructive sleep apnea\r\nH) Neurogenic tumor\r\nI) Lymphoma\r\nJ) Metastases\r\nK) Pneumonia\r\nL) Post-cardiac surgery\r\nM) Malignant pleural effusion\r\nN) Nodule (asbestos)\r\nO) Pneumothorax\r\nP) Respiratory failure\r\nQ) Septic emboli\r\nQ) Tension pneumothorax\r\nR) Tumor\r\nS) Various positions\r\nT) Ventricular aneurysm"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65229/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "pleural effusion",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65229_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) pleural effusion\nC) edema\nD) atelectasis",
+        "pred": "This CXR has an increased cardiothoracic ratio (CTR) - that is a good sign since it is a sign of pericardial effusion that is causing enlargement of the cardiac silhouette.  But, pleural effusion is also present.  So, what is the increased CTR?  Well, it is not increased. It is just that the pleural effusion is masking the increased CTR."
+    }
+]

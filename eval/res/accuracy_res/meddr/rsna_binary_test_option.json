@@ -1,0 +1,3302 @@
+[
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f9ccffe6-0f7b-43d7-9962-84888673fb57.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f9ccffe6-0f7b-43d7-9962-84888673fb57]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows infiltrates in the right lower lobe, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f2c7cf6e-f082-46f7-b72e-64627c5dec5c.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f2c7cf6e-f082-46f7-b72e-64627c5dec5c]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/6b78d3dc-4db6-4ab9-9e7b-2d91dff9c4c2.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [6b78d3dc-4db6-4ab9-9e7b-2d91dff9c4c2]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "No, the chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/c60345b4-6001-48cc-841d-db3a8be7b905.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [c60345b4-6001-48cc-841d-db3a8be7b905]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/6f1242ee-a9c8-4931-8787-9060be4bcfdc.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [6f1242ee-a9c8-4931-8787-9060be4bcfdc]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/8a9eb130-2d16-4a85-9f57-c8795d068f01.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [8a9eb130-2d16-4a85-9f57-c8795d068f01]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/56443211-949a-46fd-a677-8faa8afdad28.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [56443211-949a-46fd-a677-8faa8afdad28]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray is normal and does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/36fb7333-2dbf-4be3-a424-6739b2090dee.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [36fb7333-2dbf-4be3-a424-6739b2090dee]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b64e0ee1-82db-47fa-a91a-f1e187f84696.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b64e0ee1-82db-47fa-a91a-f1e187f84696]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows infiltrates in the right lung, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/06941d8e-2034-4503-b8d5-0eb13fc52f75.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [06941d8e-2034-4503-b8d5-0eb13fc52f75]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/9de7304a-bda3-4aa7-8002-c7b1b662745d.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [9de7304a-bda3-4aa7-8002-c7b1b662745d]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows diffuse bilateral infiltrates, which are consistent with pneumonia. Therefore, the answer is A. Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/9edc8604-a965-4eb7-a5d0-61df8a9ae45d.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [9edc8604-a965-4eb7-a5d0-61df8a9ae45d]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b77669dd-8554-4531-9903-9719747fdb63.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b77669dd-8554-4531-9903-9719747fdb63]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b00b6900-8b72-41db-a443-e1fbce442336.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b00b6900-8b72-41db-a443-e1fbce442336]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/e63d1f50-43f7-4e95-aa71-0108a062eee0.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [e63d1f50-43f7-4e95-aa71-0108a062eee0]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/ffb0166b-771d-4463-8e38-20b67fa2d3b2.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [ffb0166b-771d-4463-8e38-20b67fa2d3b2]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/80a5e433-c26e-4701-a88b-271467ed3163.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [80a5e433-c26e-4701-a88b-271467ed3163]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/8bcb8037-5e16-4f00-9f99-49fac14e4cb2.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [8bcb8037-5e16-4f00-9f99-49fac14e4cb2]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f5c92fed-e929-4944-8658-345ab207ef0b.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f5c92fed-e929-4944-8658-345ab207ef0b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/3685fe73-c5fe-47d6-b9ba-d433b79041d6.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [3685fe73-c5fe-47d6-b9ba-d433b79041d6]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/3da1b7e0-888d-4b1b-8304-10d7d609d9ed.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [3da1b7e0-888d-4b1b-8304-10d7d609d9ed]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b9a3f7fc-4bab-4e56-a206-50bc34fa4716.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b9a3f7fc-4bab-4e56-a206-50bc34fa4716]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray is normal and does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/580536eb-6002-49c0-ac65-d330e36794b9.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [580536eb-6002-49c0-ac65-d330e36794b9]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/7a543f64-6596-4944-ae8a-d21cc0644823.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [7a543f64-6596-4944-ae8a-d21cc0644823]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b17ebcce-1181-4571-a1c8-f5089cfc6fb3.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b17ebcce-1181-4571-a1c8-f5089cfc6fb3]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b1db3925-cbb3-4e1a-8612-80e07f471365.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b1db3925-cbb3-4e1a-8612-80e07f471365]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/a65ac9a3-9130-425a-b3b3-64e4e7237563.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [a65ac9a3-9130-425a-b3b3-64e4e7237563]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/62674d28-79d2-4166-966d-bcf789f9ae3a.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [62674d28-79d2-4166-966d-bcf789f9ae3a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/8b2543f1-89e6-41d2-8ede-ab0f9b797f41.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [8b2543f1-89e6-41d2-8ede-ab0f9b797f41]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/646917f3-2303-43ef-acac-37470021e91f.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [646917f3-2303-43ef-acac-37470021e91f]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/9e3ccdd8-492e-4ed5-84c2-46f337d3a8bd.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [9e3ccdd8-492e-4ed5-84c2-46f337d3a8bd]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/27bdb2cc-9665-40ea-a6b4-248a1112dbe8.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [27bdb2cc-9665-40ea-a6b4-248a1112dbe8]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/42705f2c-8bdc-4a9d-8e13-864b0a89be21.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [42705f2c-8bdc-4a9d-8e13-864b0a89be21]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/e01ef6c8-20f4-48a3-8917-686da0e5b454.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [e01ef6c8-20f4-48a3-8917-686da0e5b454]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral infiltrates consistent with pneumonia. Therefore, the answer is A."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/1ba35bfc-7641-42cd-9988-260fd0f82be1.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [1ba35bfc-7641-42cd-9988-260fd0f82be1]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/1e332eeb-da57-4857-8457-b8fc76941749.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [1e332eeb-da57-4857-8457-b8fc76941749]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows diffuse bilateral pulmonary opacities consistent with pulmonary edema. There is no evidence of pneumonia. Therefore, the answer is B. No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/18792f05-1f16-4343-884c-c33420e6b104.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [18792f05-1f16-4343-884c-c33420e6b104]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/3e37afc9-f726-407c-84d0-df382e141721.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [3e37afc9-f726-407c-84d0-df382e141721]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d8ebd2aa-c8b9-44cb-bb8e-32e03b355c55.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d8ebd2aa-c8b9-44cb-bb8e-32e03b355c55]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d6ddb156-6078-40d3-a209-49f429ac4d21.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d6ddb156-6078-40d3-a209-49f429ac4d21]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/1cabab6f-b2b8-4780-b6bf-525f2ad15096.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [1cabab6f-b2b8-4780-b6bf-525f2ad15096]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/3a516419-d69d-423d-a1f1-f0f2572b6f41.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [3a516419-d69d-423d-a1f1-f0f2572b6f41]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/57ddcf7d-96d4-4529-a2f9-9d3c9d25ca89.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [57ddcf7d-96d4-4529-a2f9-9d3c9d25ca89]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "No, the chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/17477206-a644-49de-83a8-b32d5ba9ba5b.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [17477206-a644-49de-83a8-b32d5ba9ba5b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/502c2b00-1c60-44db-a1b7-a3ae9f23d968.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [502c2b00-1c60-44db-a1b7-a3ae9f23d968]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/962a22c9-c1c9-42fc-a46d-a2c5ecfd481a.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [962a22c9-c1c9-42fc-a46d-a2c5ecfd481a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/55e6396f-23e1-4553-a2be-a825dc70a57a.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [55e6396f-23e1-4553-a2be-a825dc70a57a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/237fb342-b23b-44dd-803f-b63161c3f0cc.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [237fb342-b23b-44dd-803f-b63161c3f0cc]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/eb211810-c51d-42c7-913b-d327c8ca4dd7.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [eb211810-c51d-42c7-913b-d327c8ca4dd7]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/a03a2aab-7039-4743-9dab-3870899b1f35.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [a03a2aab-7039-4743-9dab-3870899b1f35]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/9e763f85-b627-45b6-ad70-2982aae80d5d.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [9e763f85-b627-45b6-ad70-2982aae80d5d]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/5eb5e5a8-076b-4bf8-ae80-26f6334e8790.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [5eb5e5a8-076b-4bf8-ae80-26f6334e8790]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows infiltrates in the right lower lobe, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/77a4a76f-d348-4dd4-b22a-d7b676121d78.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [77a4a76f-d348-4dd4-b22a-d7b676121d78]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/54992aed-342d-4ef3-b938-ed89aea56d7e.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [54992aed-342d-4ef3-b938-ed89aea56d7e]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral infiltrates consistent with pneumonia. Therefore, the answer is A. Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/6b351e8a-67d0-4db7-a7c9-ab32c5e55109.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [6b351e8a-67d0-4db7-a7c9-ab32c5e55109]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/18d1c0e5-47ed-4873-978e-bbd869153f5f.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [18d1c0e5-47ed-4873-978e-bbd869153f5f]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b0958738-73d0-47d5-9703-0de86944e0da.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b0958738-73d0-47d5-9703-0de86944e0da]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/af42a7f3-092c-4d10-b5a2-5806a1a8aea6.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [af42a7f3-092c-4d10-b5a2-5806a1a8aea6]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/93e19d77-ce48-41e4-b78f-b873525673dd.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [93e19d77-ce48-41e4-b78f-b873525673dd]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/3bc44999-08aa-4429-ab87-a2958f22b2f8.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [3bc44999-08aa-4429-ab87-a2958f22b2f8]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/a3f5a3d9-78a1-4689-8b1e-15f146e14b4a.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [a3f5a3d9-78a1-4689-8b1e-15f146e14b4a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/48a44f52-7fb3-4384-a76b-f6170b03a357.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [48a44f52-7fb3-4384-a76b-f6170b03a357]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/c9e0b808-0af9-43b7-8c6b-6529d23ddb2b.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [c9e0b808-0af9-43b7-8c6b-6529d23ddb2b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b4ae5b1d-2d5e-422a-9388-36f4645d21c7.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b4ae5b1d-2d5e-422a-9388-36f4645d21c7]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/4018381a-5983-41c0-9191-0de2f3de96aa.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [4018381a-5983-41c0-9191-0de2f3de96aa]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/c2e05765-ebf6-4e52-ac88-1e9d928282b8.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [c2e05765-ebf6-4e52-ac88-1e9d928282b8]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows infiltrates in the left lower lobe, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/be5d423c-9ebc-4a04-b342-f92b819a3a99.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [be5d423c-9ebc-4a04-b342-f92b819a3a99]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "No, the chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/4d7b57bb-c221-43b4-a207-f921772e4d90.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [4d7b57bb-c221-43b4-a207-f921772e4d90]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/8760bcf7-6545-4d43-8996-39d5abe8653e.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [8760bcf7-6545-4d43-8996-39d5abe8653e]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/c5fb4095-cb29-4c10-9267-dafb286acc8e.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [c5fb4095-cb29-4c10-9267-dafb286acc8e]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows diffuse bilateral infiltrates consistent with pulmonary edema. Therefore, the answer is B. No, this chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/deb61fad-d94f-4afe-b764-f710a99b9cb2.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [deb61fad-d94f-4afe-b764-f710a99b9cb2]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/e158a4d0-6a35-4d57-8f1a-5670eff19364.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [e158a4d0-6a35-4d57-8f1a-5670eff19364]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/8fa0207f-cc3c-43fb-9a1c-a0475f77e680.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [8fa0207f-cc3c-43fb-9a1c-a0475f77e680]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/6520137b-c98c-42be-9689-dbce52e1df6b.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [6520137b-c98c-42be-9689-dbce52e1df6b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/fe5e5a88-1f1d-4abf-9a40-03517c3260ba.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [fe5e5a88-1f1d-4abf-9a40-03517c3260ba]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d7efba97-6316-452f-b2b4-a74e727f2186.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d7efba97-6316-452f-b2b4-a74e727f2186]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/4709d121-df3a-439b-8349-93439292a936.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [4709d121-df3a-439b-8349-93439292a936]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d2e16b46-2400-4ff1-bdec-3ed42e49155b.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d2e16b46-2400-4ff1-bdec-3ed42e49155b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral infiltrates consistent with pneumonia. Therefore, the answer is A. Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/65f2119b-0e72-4f6e-9ec6-194f56b5b07d.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [65f2119b-0e72-4f6e-9ec6-194f56b5b07d]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/986237d6-e05f-4ce0-82e9-b81feb7fc399.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [986237d6-e05f-4ce0-82e9-b81feb7fc399]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/e7d62adc-e492-475c-9fc9-11cc9b3654da.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [e7d62adc-e492-475c-9fc9-11cc9b3654da]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/09b0df7c-90bc-499d-a7c7-5474199da4e6.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [09b0df7c-90bc-499d-a7c7-5474199da4e6]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b82c9155-f643-4853-abe6-ea3420ab1d02.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b82c9155-f643-4853-abe6-ea3420ab1d02]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/fbd80ae9-ddf4-414f-a6ab-77da639c33c1.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [fbd80ae9-ddf4-414f-a6ab-77da639c33c1]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows diffuse bilateral airspace opacities, which are consistent with pneumonia. Therefore, the answer is A. Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/a3085448-8cb6-42b1-ae24-13362196482c.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [a3085448-8cb6-42b1-ae24-13362196482c]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows consolidation in the left lower lobe, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/c72f26ab-fca8-490f-a9fc-0375f8a93856.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [c72f26ab-fca8-490f-a9fc-0375f8a93856]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/c3678e72-ceb4-42d0-8e44-5a4de7ebfccb.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [c3678e72-ceb4-42d0-8e44-5a4de7ebfccb]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/bd7b4e6e-5384-4cce-9732-0dd7f9d15da8.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [bd7b4e6e-5384-4cce-9732-0dd7f9d15da8]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral infiltrates, which are indicative of pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/7a1ddad0-eda0-4ae1-872f-50960e5abeff.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [7a1ddad0-eda0-4ae1-872f-50960e5abeff]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/e54f1e19-3d46-4d53-8575-2a7863fe0240.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [e54f1e19-3d46-4d53-8575-2a7863fe0240]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/ab514814-ddbf-46df-b913-650244f68f48.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [ab514814-ddbf-46df-b913-650244f68f48]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/4c5b63e3-d3b4-4cab-9ff6-1e4ae56fd828.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [4c5b63e3-d3b4-4cab-9ff6-1e4ae56fd828]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b95d289f-8019-4491-8f90-39a55d321c37.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b95d289f-8019-4491-8f90-39a55d321c37]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/a83f3266-8fe1-4d4f-86a9-94ee9b7e8c4a.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [a83f3266-8fe1-4d4f-86a9-94ee9b7e8c4a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/190900eb-b076-49cf-85a2-7bc41571e5aa.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [190900eb-b076-49cf-85a2-7bc41571e5aa]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/c18d1138-ba74-4af5-af21-bdd4d2c96bb5.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [c18d1138-ba74-4af5-af21-bdd4d2c96bb5]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/74ed4f73-33e6-4607-8842-57aec6c318c6.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [74ed4f73-33e6-4607-8842-57aec6c318c6]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows diffuse bilateral infiltrates consistent with pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b78a4ada-0963-4067-a009-3f8ee134e069.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b78a4ada-0963-4067-a009-3f8ee134e069]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/56a60039-bf00-44ea-aaf2-ea50b68c4dbc.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [56a60039-bf00-44ea-aaf2-ea50b68c4dbc]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f9948c5e-f97b-45a2-a5f5-236cf83fdc13.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f9948c5e-f97b-45a2-a5f5-236cf83fdc13]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d4d8605c-985b-421b-801e-206d98e55249.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d4d8605c-985b-421b-801e-206d98e55249]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows infiltrates in the left lower lobe, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/88b61e45-e6e8-4a1d-bb26-475537397a62.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [88b61e45-e6e8-4a1d-bb26-475537397a62]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/484a4f31-82d5-4ab1-9213-1566ae6ca14e.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [484a4f31-82d5-4ab1-9213-1566ae6ca14e]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/35114241-ead7-425a-a694-4f5131f0dc50.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [35114241-ead7-425a-a694-4f5131f0dc50]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows diffuse bilateral airspace opacities, which are consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/eaecfe76-bef1-4d34-9a27-c2c131156672.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [eaecfe76-bef1-4d34-9a27-c2c131156672]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/ed84b8c8-a144-4cea-8f05-27e15571f141.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [ed84b8c8-a144-4cea-8f05-27e15571f141]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/793c8547-aa10-4a67-88eb-0318ff9a6541.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [793c8547-aa10-4a67-88eb-0318ff9a6541]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/9b19d8e9-16b4-4a69-bcf0-181d4709d3f0.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [9b19d8e9-16b4-4a69-bcf0-181d4709d3f0]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/88483dd4-8590-4da0-b4eb-077ccba7a431.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [88483dd4-8590-4da0-b4eb-077ccba7a431]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/fe7edfb1-555b-44e0-8cdf-a04278e4fb75.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [fe7edfb1-555b-44e0-8cdf-a04278e4fb75]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/5cf3b061-2bd8-4c29-a4c2-80ba925e2f6f.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [5cf3b061-2bd8-4c29-a4c2-80ba925e2f6f]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/108a989d-bd99-4e96-8ce6-ab21ffd0d79f.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [108a989d-bd99-4e96-8ce6-ab21ffd0d79f]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b18b104d-6a96-4402-9e0f-64ca63b4f1ec.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b18b104d-6a96-4402-9e0f-64ca63b4f1ec]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows hyperexpansion of the lungs with flattening of the hemidiaphragms, consistent with chronic pulmonary disease. There is no evidence of pneumonia. Therefore, the answer is B."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/fb70a27a-582a-4a85-a95f-0f5698652f62.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [fb70a27a-582a-4a85-a95f-0f5698652f62]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/eb4e6b74-352a-4631-9456-d848c2232440.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [eb4e6b74-352a-4631-9456-d848c2232440]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/6a078738-03df-4e3f-adb3-d203baef1e1c.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [6a078738-03df-4e3f-adb3-d203baef1e1c]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/6f756510-22e0-4961-88e4-1084dc90ee22.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [6f756510-22e0-4961-88e4-1084dc90ee22]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/de31731a-a0ad-42fd-ad28-679d712fe6c0.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [de31731a-a0ad-42fd-ad28-679d712fe6c0]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/aafecca2-fefc-48e6-be48-a34488e06cbb.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [aafecca2-fefc-48e6-be48-a34488e06cbb]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral infiltrates, which are indicative of pneumonia. Therefore, the answer is A. Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/a88b1cbc-3ab1-4cbc-b0b6-386e90185260.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [a88b1cbc-3ab1-4cbc-b0b6-386e90185260]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/03cd7a5b-d5d7-40a1-81b1-c4264920530a.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [03cd7a5b-d5d7-40a1-81b1-c4264920530a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/73b9e53d-0501-4d0e-bc35-9eab24af5551.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [73b9e53d-0501-4d0e-bc35-9eab24af5551]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows diffuse bilateral airspace opacities, which are consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d596c11d-ea61-448e-bf60-94473370eb54.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d596c11d-ea61-448e-bf60-94473370eb54]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/2037f6cd-d91f-47b9-ad6b-13a629090fdd.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [2037f6cd-d91f-47b9-ad6b-13a629090fdd]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d71602f4-ca1e-4651-8eb1-86bfde77556f.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d71602f4-ca1e-4651-8eb1-86bfde77556f]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/a7a60e01-2bff-4556-8404-dab7a8d74131.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [a7a60e01-2bff-4556-8404-dab7a8d74131]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/17551520-eef9-476d-bdcd-9556dca30e14.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [17551520-eef9-476d-bdcd-9556dca30e14]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows infiltrates in the left lower lobe, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/4f891e4b-bb3b-46ec-98d2-ce7b6d3dd14f.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [4f891e4b-bb3b-46ec-98d2-ce7b6d3dd14f]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/bc9bd81f-13cb-4fb1-acb8-2f79d4d58954.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [bc9bd81f-13cb-4fb1-acb8-2f79d4d58954]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/e70795e5-58b2-4b08-a9eb-6929c8905ea0.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [e70795e5-58b2-4b08-a9eb-6929c8905ea0]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/57b03001-72a5-481e-b582-dc397ad0828b.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [57b03001-72a5-481e-b582-dc397ad0828b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/82d01371-245d-40a6-9a69-28a374144bf9.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [82d01371-245d-40a6-9a69-28a374144bf9]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/53d4697b-98ba-4dbc-892e-a602baec576b.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [53d4697b-98ba-4dbc-892e-a602baec576b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows diffuse bilateral airspace opacities, which are consistent with pneumonia. Therefore, the answer is A. Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/58d2d2b4-4bce-40ae-8993-a26390e128ee.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [58d2d2b4-4bce-40ae-8993-a26390e128ee]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray is normal and does not show any signs of pneumonia. Therefore, the answer is B. No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/8a61a6c6-b600-4eb4-9bec-ea32804c03b2.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [8a61a6c6-b600-4eb4-9bec-ea32804c03b2]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/95085525-e2dd-4894-a5f7-ef98c90f7774.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [95085525-e2dd-4894-a5f7-ef98c90f7774]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/aa45260f-ff15-402b-97fb-c5e2eca493ff.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [aa45260f-ff15-402b-97fb-c5e2eca493ff]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/c30dc668-2110-4948-8b5c-ccf2af187953.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [c30dc668-2110-4948-8b5c-ccf2af187953]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/59f86f85-1504-41f2-b6e7-51394fd65ca1.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [59f86f85-1504-41f2-b6e7-51394fd65ca1]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral infiltrates, which are indicative of pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/66811487-9791-4a70-a560-b9d0b586c4b0.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [66811487-9791-4a70-a560-b9d0b586c4b0]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/76b14eb0-e55a-48f6-86d9-4dbc8353df17.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [76b14eb0-e55a-48f6-86d9-4dbc8353df17]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b27ce840-3616-4cec-8499-fa7dc760c387.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b27ce840-3616-4cec-8499-fa7dc760c387]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/3c4c732b-8281-41ef-bd8c-98f98a1c11fe.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [3c4c732b-8281-41ef-bd8c-98f98a1c11fe]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "No, the chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/4b6f8c4f-f093-4b85-a22f-4e5da0be7eeb.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [4b6f8c4f-f093-4b85-a22f-4e5da0be7eeb]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/28c94c54-4279-431a-b329-c69104ee0d38.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [28c94c54-4279-431a-b329-c69104ee0d38]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/42cfa0cd-1806-4c78-9d47-36b5eaa38e53.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [42cfa0cd-1806-4c78-9d47-36b5eaa38e53]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/11e13a2f-fc65-40c6-82d8-fa5aa88495a0.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [11e13a2f-fc65-40c6-82d8-fa5aa88495a0]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d5e25174-e2eb-4a71-963b-24adc75fa6c7.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d5e25174-e2eb-4a71-963b-24adc75fa6c7]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/ee5842e0-5bd3-4e4b-9aea-cb94b6402fdb.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [ee5842e0-5bd3-4e4b-9aea-cb94b6402fdb]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/afaeb13e-137c-415b-aa87-1f329432aa1c.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [afaeb13e-137c-415b-aa87-1f329432aa1c]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/453ea726-fb0d-43f7-839f-8123ee9f88f6.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [453ea726-fb0d-43f7-839f-8123ee9f88f6]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/a3104c9f-5b71-4549-bcbd-facfcc5f17ab.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [a3104c9f-5b71-4549-bcbd-facfcc5f17ab]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/7999e55b-1fac-4460-b340-2a3003772cf5.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [7999e55b-1fac-4460-b340-2a3003772cf5]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/9cbf0728-d245-4782-8aca-c25c5e8e158f.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [9cbf0728-d245-4782-8aca-c25c5e8e158f]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d6f738cd-5f62-40b1-8410-6940add3ece8.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d6f738cd-5f62-40b1-8410-6940add3ece8]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral pleural effusions, but there is no evidence of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/472dac2e-aba2-4119-b9f7-37939e23e0b1.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [472dac2e-aba2-4119-b9f7-37939e23e0b1]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral infiltrates, which are consistent with pneumonia. Therefore, the answer is A. Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/8f3ac054-eaac-4626-94ba-fb455f7d44b9.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [8f3ac054-eaac-4626-94ba-fb455f7d44b9]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/fcac5979-fa02-40ad-bd07-70da89e391fb.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [fcac5979-fa02-40ad-bd07-70da89e391fb]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b038a798-3637-4f41-9e6a-c84660b45560.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b038a798-3637-4f41-9e6a-c84660b45560]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows infiltrates in the left lower lobe, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/54beda44-fc48-4962-9c6a-01e8001e463e.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [54beda44-fc48-4962-9c6a-01e8001e463e]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/9455d314-1d14-45a1-aeb6-ec17f05c93b2.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [9455d314-1d14-45a1-aeb6-ec17f05c93b2]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows infiltrates in the left lower lobe, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/be16ff6b-cb15-424f-91ed-ff6612110961.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [be16ff6b-cb15-424f-91ed-ff6612110961]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "No, there is no evidence of pneumonia on this chest X-ray."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/8b23b2fc-0176-480f-89cc-b63a948469b1.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [8b23b2fc-0176-480f-89cc-b63a948469b1]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b1eac50d-4280-46e7-b010-6c347b8182d5.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b1eac50d-4280-46e7-b010-6c347b8182d5]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/629b01a0-5d99-4756-aacc-fadedf5a2ee1.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [629b01a0-5d99-4756-aacc-fadedf5a2ee1]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows consolidation in the left lower lobe, which is consistent with pneumonia. Therefore, the answer is A. Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/76f71a93-8105-4c79-a010-0cfa86f0061a.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [76f71a93-8105-4c79-a010-0cfa86f0061a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "No, the chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/96c79aab-01ba-47e0-be07-162458de6bb7.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [96c79aab-01ba-47e0-be07-162458de6bb7]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f966c01e-ee55-4544-a700-032f9d538a2b.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f966c01e-ee55-4544-a700-032f9d538a2b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/35f287e7-12d7-41f4-a5e9-711086bd031d.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [35f287e7-12d7-41f4-a5e9-711086bd031d]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral infiltrates consistent with pneumonia. Therefore, the answer is A."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/077ff78d-27ef-49d4-9e8e-00e458844a3e.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [077ff78d-27ef-49d4-9e8e-00e458844a3e]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/2aae181e-a4b7-47f4-ac47-e99001b9008b.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [2aae181e-a4b7-47f4-ac47-e99001b9008b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b6271674-f13d-4087-ae03-d6ae35381dfc.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b6271674-f13d-4087-ae03-d6ae35381dfc]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/806b6a9d-cfd7-4f32-85a8-8dfc916b4fab.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [806b6a9d-cfd7-4f32-85a8-8dfc916b4fab]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/7863d975-f4da-486d-80ec-2bebc5f8b089.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [7863d975-f4da-486d-80ec-2bebc5f8b089]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f3769c94-c61a-4177-a75b-d10a652d7d54.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f3769c94-c61a-4177-a75b-d10a652d7d54]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/3e270660-ae56-4cb7-885b-3c9ba8b0f55b.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [3e270660-ae56-4cb7-885b-3c9ba8b0f55b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/7ddd3bf3-bc61-452b-99cd-832c489aeef1.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [7ddd3bf3-bc61-452b-99cd-832c489aeef1]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/38aec2ec-83b4-4389-8644-aa2d72407495.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [38aec2ec-83b4-4389-8644-aa2d72407495]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "No, the chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f9b9a4ee-49bd-4054-9a60-03c771aac376.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f9b9a4ee-49bd-4054-9a60-03c771aac376]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/5150b314-97cd-4721-9f03-a8d701822630.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [5150b314-97cd-4721-9f03-a8d701822630]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f83bd383-228a-43c5-a11d-834829350bfa.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f83bd383-228a-43c5-a11d-834829350bfa]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/4e60231e-3d1b-40b5-bbeb-d8b136cbad6c.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [4e60231e-3d1b-40b5-bbeb-d8b136cbad6c]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "No, the chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/9130c6ff-ef18-413c-af5b-7c7f8de455fc.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [9130c6ff-ef18-413c-af5b-7c7f8de455fc]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/8c9a86b2-45c2-4435-acd0-2eb1c7dcf73f.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [8c9a86b2-45c2-4435-acd0-2eb1c7dcf73f]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/6cdcd463-82a4-45b7-b780-ef366f9ecc62.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [6cdcd463-82a4-45b7-b780-ef366f9ecc62]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d1a75847-b5eb-4de4-a88a-499ed2406999.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d1a75847-b5eb-4de4-a88a-499ed2406999]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows diffuse bilateral infiltrates consistent with pneumonia. Therefore, the answer is A."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/63789246-648f-4eb8-94ee-e5d538678618.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [63789246-648f-4eb8-94ee-e5d538678618]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/3aebc0d6-6625-4e62-a895-53136bb34078.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [3aebc0d6-6625-4e62-a895-53136bb34078]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f320d4f9-9c2b-4b13-aae5-5c9e751a2e45.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f320d4f9-9c2b-4b13-aae5-5c9e751a2e45]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/eb55e5c1-0065-4478-960d-fdd19793fb96.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [eb55e5c1-0065-4478-960d-fdd19793fb96]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/36f775ee-d044-43a3-bbe5-000ed7b498b8.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [36f775ee-d044-43a3-bbe5-000ed7b498b8]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show pneumonia. The correct answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/9326f250-c742-44df-8406-aa04112812f0.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [9326f250-c742-44df-8406-aa04112812f0]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/ac51aa90-d1ca-4247-911b-09e5b324fa30.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [ac51aa90-d1ca-4247-911b-09e5b324fa30]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows infiltrates in the right lung, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/053f400c-145d-4770-841c-3ea961bb3644.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [053f400c-145d-4770-841c-3ea961bb3644]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/befa7299-aa28-4487-b497-262ad6cd8f1c.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [befa7299-aa28-4487-b497-262ad6cd8f1c]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/35412b65-c05b-4b5d-b97c-e4c7b6e8211d.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [35412b65-c05b-4b5d-b97c-e4c7b6e8211d]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/ac8fa30d-caed-4d4b-acb0-173c9128672a.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [ac8fa30d-caed-4d4b-acb0-173c9128672a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/98b45c2b-7594-4755-8150-c38b443ba1f6.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [98b45c2b-7594-4755-8150-c38b443ba1f6]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows consolidation in the left lower lobe, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/20db11bd-2bd8-46d7-b2d3-77b8d4d8ec67.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [20db11bd-2bd8-46d7-b2d3-77b8d4d8ec67]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "No, the chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/e9a4f360-0b85-4241-bd3c-4c7c67037a4c.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [e9a4f360-0b85-4241-bd3c-4c7c67037a4c]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/e61e042e-8f4a-4564-b8c1-dda2663ac82a.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [e61e042e-8f4a-4564-b8c1-dda2663ac82a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/93e36af8-ab53-487d-a486-3d0e0476bb84.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [93e36af8-ab53-487d-a486-3d0e0476bb84]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/9b218763-f3a6-48fb-b17d-50d25cf9bdb8.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [9b218763-f3a6-48fb-b17d-50d25cf9bdb8]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral infiltrates, which are consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/759f55b1-8bd3-4695-a4ac-6ad6336abaed.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [759f55b1-8bd3-4695-a4ac-6ad6336abaed]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/cfe768fc-4a0c-41fb-b3e3-86229e2cb94a.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [cfe768fc-4a0c-41fb-b3e3-86229e2cb94a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f3e87ce1-a7d5-4ab8-b49a-8acbec1acd75.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f3e87ce1-a7d5-4ab8-b49a-8acbec1acd75]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/29e75170-ef12-4e4d-a0fc-4055fe7470c5.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [29e75170-ef12-4e4d-a0fc-4055fe7470c5]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/aeaf6ffd-ff7e-48cc-b31f-175a5e79b415.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [aeaf6ffd-ff7e-48cc-b31f-175a5e79b415]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/8d1a4fe3-329f-4eea-a5b7-953d617a74fa.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [8d1a4fe3-329f-4eea-a5b7-953d617a74fa]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/69ac2b3b-864c-4538-8275-2903a486a841.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [69ac2b3b-864c-4538-8275-2903a486a841]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows low lung volumes and bibasilar atelectasis. There is no evidence of pneumonia. Therefore, the answer is B. No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/bf64307b-6a83-4032-9f48-99aa0aec9e8a.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [bf64307b-6a83-4032-9f48-99aa0aec9e8a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray is normal and does not show any signs of pneumonia. Therefore, the answer is B. No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f1c0e838-08dd-4ec4-84a7-cedf9b87f592.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f1c0e838-08dd-4ec4-84a7-cedf9b87f592]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/a61c9969-4521-4436-85e7-0fcb71e61dd4.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [a61c9969-4521-4436-85e7-0fcb71e61dd4]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/e3539d15-18fd-4bee-b593-5c74b0cc9210.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [e3539d15-18fd-4bee-b593-5c74b0cc9210]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/1d247b6c-0687-40bf-839e-fd30e01c585d.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [1d247b6c-0687-40bf-839e-fd30e01c585d]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/8860c7f9-d29d-4266-8a7b-33ae1d69a132.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [8860c7f9-d29d-4266-8a7b-33ae1d69a132]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/1f29d0c9-e758-4b71-ba67-38eb605a9dd4.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [1f29d0c9-e758-4b71-ba67-38eb605a9dd4]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/aef87dc2-a097-4683-9fb1-d1af6838a16a.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [aef87dc2-a097-4683-9fb1-d1af6838a16a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "No, the chest X-ray shows hyperexpansion of the lungs with flattening of the hemidiaphragms, consistent with chronic pulmonary disease. There is no evidence of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/9954f203-ec80-45ce-85a6-fb155368370f.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [9954f203-ec80-45ce-85a6-fb155368370f]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray is normal and does not show any signs of pneumonia. Therefore, the answer is B. No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f3d8b643-0706-4997-8819-92bb95524626.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f3d8b643-0706-4997-8819-92bb95524626]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/ea3f3fb8-d6dc-41c8-9bdf-a67b43570477.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [ea3f3fb8-d6dc-41c8-9bdf-a67b43570477]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/6290b473-9935-4ef7-bb8c-3144e48377c0.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [6290b473-9935-4ef7-bb8c-3144e48377c0]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/ebdf7aa3-a2ec-4388-8086-7eb223a23915.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [ebdf7aa3-a2ec-4388-8086-7eb223a23915]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d50e7c06-768f-4943-8e00-392d664fe580.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d50e7c06-768f-4943-8e00-392d664fe580]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d57f327a-a211-4e95-9bf9-0c190c9ae0ab.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d57f327a-a211-4e95-9bf9-0c190c9ae0ab]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/74ead0c4-bddb-4660-8831-210c9c5b8d9e.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [74ead0c4-bddb-4660-8831-210c9c5b8d9e]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b532569f-be57-44a1-8452-83aa0bf278d1.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b532569f-be57-44a1-8452-83aa0bf278d1]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/4ae315a5-733e-4de7-9f29-a095134382cb.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [4ae315a5-733e-4de7-9f29-a095134382cb]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows infiltrates in the left lower lobe, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/35ef8c74-74d5-49ae-8b45-98d349344628.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [35ef8c74-74d5-49ae-8b45-98d349344628]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/6aa660eb-06a5-45de-9819-84da5b02e787.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [6aa660eb-06a5-45de-9819-84da5b02e787]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/72fcb14d-5126-4976-b31f-ad2d21d2462e.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [72fcb14d-5126-4976-b31f-ad2d21d2462e]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. The answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d03b693d-8e4d-48ee-8cb3-8577680a55e4.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d03b693d-8e4d-48ee-8cb3-8577680a55e4]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/df07876c-6dc6-480b-8b62-440dc2c1a73a.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [df07876c-6dc6-480b-8b62-440dc2c1a73a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/c63e2132-aaa3-4d1b-aba9-ce7ea8d1c7f3.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [c63e2132-aaa3-4d1b-aba9-ce7ea8d1c7f3]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/5735ead4-b24d-411d-8151-e3bf27f8f0a5.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [5735ead4-b24d-411d-8151-e3bf27f8f0a5]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral pleural effusions, but there is no evidence of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f9891c8d-1f7c-42bb-b46f-7d60405f8c76.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f9891c8d-1f7c-42bb-b46f-7d60405f8c76]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b7f73ec9-32a6-4b6d-8cf7-0ea7af92db07.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b7f73ec9-32a6-4b6d-8cf7-0ea7af92db07]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/61fdca94-802a-44cb-8896-b11c1505606f.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [61fdca94-802a-44cb-8896-b11c1505606f]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral pleural effusions and bibasilar atelectasis. There is no evidence of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/aa78c204-135e-4605-8310-7202c41e08cc.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [aa78c204-135e-4605-8310-7202c41e08cc]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/095edab1-09c6-4f83-931e-f0a33b77639c.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [095edab1-09c6-4f83-931e-f0a33b77639c]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/0637b804-e693-48d1-8716-f7c63ce6162a.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [0637b804-e693-48d1-8716-f7c63ce6162a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/16f07d74-df3a-4436-86bd-31041b0af6c3.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [16f07d74-df3a-4436-86bd-31041b0af6c3]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/dab82501-c1e3-4a59-b099-69b2ae5c3c77.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [dab82501-c1e3-4a59-b099-69b2ae5c3c77]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows infiltrates in the left lower lobe, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f92793eb-6396-4597-ad39-2cc6e8eff84b.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f92793eb-6396-4597-ad39-2cc6e8eff84b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/4738ed4e-96a7-4c15-9b7c-a68e42721192.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [4738ed4e-96a7-4c15-9b7c-a68e42721192]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "No, the chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b5fda723-b6c7-4b82-a960-83d3f52f385a.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b5fda723-b6c7-4b82-a960-83d3f52f385a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b9cd9ce8-2450-44bc-8e83-9cab6b7b35ef.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b9cd9ce8-2450-44bc-8e83-9cab6b7b35ef]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d9f275f9-4f05-485d-8401-810b9f07a13c.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d9f275f9-4f05-485d-8401-810b9f07a13c]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/3a48ce85-63f3-4443-857c-1d180ed52e7d.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [3a48ce85-63f3-4443-857c-1d180ed52e7d]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/41652dd6-6398-429c-a7e5-bba08c4de94c.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [41652dd6-6398-429c-a7e5-bba08c4de94c]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/06c3982f-b0a4-4e3a-a85c-564c2e47e472.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [06c3982f-b0a4-4e3a-a85c-564c2e47e472]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/f27252da-ac5d-46b2-8df9-32e09763574b.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [f27252da-ac5d-46b2-8df9-32e09763574b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/a4dbfeca-474b-4641-ab2f-7b376dea9fd8.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [a4dbfeca-474b-4641-ab2f-7b376dea9fd8]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "There is no evidence of pneumonia on the chest X-ray. The answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/9fae656b-cf66-4c4b-a5ed-1962ebcafb7d.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [9fae656b-cf66-4c4b-a5ed-1962ebcafb7d]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral pleural effusions, but there is no evidence of pneumonia. Therefore, the answer is B. No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/7fe666e4-8253-47ae-b859-490436f669f9.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [7fe666e4-8253-47ae-b859-490436f669f9]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/95dc87c3-ef52-42bc-a9e2-c275f209e8b8.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [95dc87c3-ef52-42bc-a9e2-c275f209e8b8]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/bd38bb4c-57c2-48ac-945b-6ba8b468b6a2.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [bd38bb4c-57c2-48ac-945b-6ba8b468b6a2]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/fbcef55b-b6d2-427b-912c-0e98bb9fc128.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [fbcef55b-b6d2-427b-912c-0e98bb9fc128]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray is normal and does not show any signs of pneumonia.\nTherefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/feb8dd3e-ecfc-493f-9094-00331a043c7c.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [feb8dd3e-ecfc-493f-9094-00331a043c7c]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows infiltrates in the right lung, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/6c1c37f8-f8b4-4412-8dd3-9173e9f264ba.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [6c1c37f8-f8b4-4412-8dd3-9173e9f264ba]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b695950b-fcfd-47a6-8766-ce287cc3d415.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b695950b-fcfd-47a6-8766-ce287cc3d415]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/3c4a89ed-4338-4410-8848-a0bf226f6e21.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [3c4a89ed-4338-4410-8848-a0bf226f6e21]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows diffuse bilateral infiltrates, which are consistent with pneumonia. Therefore, the answer is A. Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/64236164-d6c9-415a-9e4e-05bbe20591e6.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [64236164-d6c9-415a-9e4e-05bbe20591e6]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/36d7ebd2-a4e5-42d1-bde0-c7699da0b152.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [36d7ebd2-a4e5-42d1-bde0-c7699da0b152]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d841c5a0-b0fb-45e0-98ee-365dbbfc4b84.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d841c5a0-b0fb-45e0-98ee-365dbbfc4b84]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray is normal and does not show any signs of pneumonia. Therefore, the answer is B. No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/620ef67c-0975-48e0-88cd-170226a62e8b.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [620ef67c-0975-48e0-88cd-170226a62e8b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows diffuse bilateral infiltrates, which are consistent with pneumonia. Therefore, the answer is A. Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/8893aab9-24ab-4e67-8610-826f483a7145.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [8893aab9-24ab-4e67-8610-826f483a7145]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/ff7b514f-5f0b-442e-8c57-a149fb17434e.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [ff7b514f-5f0b-442e-8c57-a149fb17434e]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/5a4e67d2-ce41-426c-a695-b98fb6e0a276.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [5a4e67d2-ce41-426c-a695-b98fb6e0a276]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/ef8b8ef0-b036-4202-a8e0-875eb3caf36b.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [ef8b8ef0-b036-4202-a8e0-875eb3caf36b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/ee5691a5-997d-4ae7-bd94-d35c2347a69c.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [ee5691a5-997d-4ae7-bd94-d35c2347a69c]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/5fe137e2-d416-4f49-b685-6a3fe5367910.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [5fe137e2-d416-4f49-b685-6a3fe5367910]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows bilateral pleural effusions and pulmonary edema, but it does not show pneumonia. Therefore, the answer is B. No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/83b6ce8d-2e82-43a3-82bb-1d43d499aae9.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [83b6ce8d-2e82-43a3-82bb-1d43d499aae9]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows consolidation in the left lower lobe, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/dbc02d37-5409-41bf-a949-04844da63229.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [dbc02d37-5409-41bf-a949-04844da63229]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/a8a32c9b-44bf-4f83-a091-2f006901ef22.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [a8a32c9b-44bf-4f83-a091-2f006901ef22]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/3aec9f35-58ba-4c7b-8b02-06f1218d3b3f.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [3aec9f35-58ba-4c7b-8b02-06f1218d3b3f]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray is normal and does not show any signs of pneumonia. The answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/a3c04f4d-3621-4679-872b-fad6dd79a4f8.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [a3c04f4d-3621-4679-872b-fad6dd79a4f8]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/c4c4ba61-e74c-4c47-834f-6dbd46ec7d63.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [c4c4ba61-e74c-4c47-834f-6dbd46ec7d63]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows diffuse bilateral infiltrates, which are consistent with pneumonia. Therefore, the answer is A. Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/ddfcc1a2-9c25-44c8-9b00-c927c1f2369e.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [ddfcc1a2-9c25-44c8-9b00-c927c1f2369e]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows diffuse bilateral infiltrates, which are consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/d0183e7f-16b5-4dec-9190-2141bc78f683.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [d0183e7f-16b5-4dec-9190-2141bc78f683]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/dc1813b1-0576-4560-95ab-fd4a2b509823.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [dc1813b1-0576-4560-95ab-fd4a2b509823]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/350f6ea5-e123-4a2b-935d-b48fcbf0c17a.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [350f6ea5-e123-4a2b-935d-b48fcbf0c17a]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b1dcd901-378d-4540-949e-33ac5c94ca4b.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b1dcd901-378d-4540-949e-33ac5c94ca4b]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/3860415d-c3b9-4ac6-ba32-51a6eddf6528.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [3860415d-c3b9-4ac6-ba32-51a6eddf6528]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b5926fe2-3848-4f52-86b6-de13de07f9c3.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b5926fe2-3848-4f52-86b6-de13de07f9c3]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/a30e9f7b-4de5-4e40-afc3-cf23361a14e2.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [a30e9f7b-4de5-4e40-afc3-cf23361a14e2]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia. Therefore, the answer is B) No."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/0cc09b0a-1afc-4492-929e-ac53f15286b6.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [0cc09b0a-1afc-4492-929e-ac53f15286b6]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/be35c13b-705d-4466-ae3f-ed690080ac9d.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [be35c13b-705d-4466-ae3f-ed690080ac9d]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/4c30e2c4-f7f6-451d-8ce9-d065ff7c4b36.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [4c30e2c4-f7f6-451d-8ce9-d065ff7c4b36]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/eda49900-8110-4529-b1ed-abb154c92396.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [eda49900-8110-4529-b1ed-abb154c92396]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, this chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/50d934dd-f974-48c2-b021-f40b9539051e.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [50d934dd-f974-48c2-b021-f40b9539051e]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows infiltrates in the left lower lobe, which is consistent with pneumonia. Therefore, the answer is A) Yes."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/accfe124-5be8-42e4-86fb-630ad1f11c73.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [accfe124-5be8-42e4-86fb-630ad1f11c73]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray does not show any signs of pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/1c44e0a4-4612-438f-9a83-8d5bf919cb67.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [1c44e0a4-4612-438f-9a83-8d5bf919cb67]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/e4ab5eae-5d47-4ed6-91f5-708b5617a600.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [e4ab5eae-5d47-4ed6-91f5-708b5617a600]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "No, the chest X-ray does not show pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/74a08fcb-fc92-4b2f-9301-3602dbaf0a41.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [74a08fcb-fc92-4b2f-9301-3602dbaf0a41]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/b617818a-6a54-4dbd-997f-26723bb46634.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [b617818a-6a54-4dbd-997f-26723bb46634]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "Yes, the chest X-ray shows pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/c7b82296-619f-4af1-9948-a1837c474117.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [c7b82296-619f-4af1-9948-a1837c474117]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "B) No"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/4217397c-f5d1-4890-8d71-5c6eebf8340e.jpeg"
+        ],
+        "answer": "A",
+        "answer_content": "Yes",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [4217397c-f5d1-4890-8d71-5c6eebf8340e]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/df09db89-b77f-424e-b9cc-6ba00dd047bd.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [df09db89-b77f-424e-b9cc-6ba00dd047bd]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "A) Yes"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/RSNA/train/2877c9be-1665-4131-ac0f-7b145696ebc5.jpeg"
+        ],
+        "answer": "B",
+        "answer_content": "No",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[rsna] [2877c9be-1665-4131-ac0f-7b145696ebc5]RSNA",
+        "question": "Does this chest X-ray show pneumonia? Options:\nA) Yes\nB) No",
+        "pred": "The chest X-ray shows clear lungs, indicating no signs of pneumonia. Therefore, the answer is B) No."
+    }
+]

@@ -42,5 +42,9 @@ We provide all the code used for fine-tuning. We support 2 fine-tuning methods: 
 ### Reinforcement Learning with Process Reward  
 
 ### Benchmark Data  
-
+In `eval/data`, we present our benchmark construction code and our data.
 ### Evaluation  
+We provide:
+1. The evaluation code on both reasoning and accuracy in `eval/`
+2. The baseline inference code in `eval/inference`
+3. The evaluation results on both reasoning and accuracy of all baselines in `eval/res`

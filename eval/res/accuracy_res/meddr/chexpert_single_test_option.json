@@ -1,0 +1,1577 @@
+[
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64744/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64744/study1/view2_lateral.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64744/study1/view3_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64744_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) enlarged cardiomediastinum\nC) support devices\nD) pleural effusion",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum and support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64748/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64748/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64748_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) support devices\nC) lung lesion\nD) fracture",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64751/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64751/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64751_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) support devices\nC) cardiomegaly\nD) fracture",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64766/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64766/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64766_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) support devices\nC) pneumonia\nD) atelectasis",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64782/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64782_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) pneumonia\nC) edema\nD) support devices",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64799/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64799/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64799_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) no finding\nC) pneumothorax\nD) support devices",
+        "pred": "The finding in this chest X-ray is pneumothorax."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64801/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64801/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64801_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) consolidation\nC) pleural effusion\nD) enlarged cardiomediastinum",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64810/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64810_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) pneumonia\nC) edema\nD) support devices",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64818/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64818_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumonia\nB) support devices\nC) atelectasis\nD) consolidation",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64819/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64819/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64819_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) cardiomegaly\nC) support devices\nD) pneumonia",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64820/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64820_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) lung lesion\nC) pneumonia\nD) pneumothorax",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64834/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64834/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64834_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) edema\nC) support devices\nD) lung opacity",
+        "pred": "The chest X-ray shows no pleural effusion, edema, or lung opacity. The only finding is the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64843/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64843_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumonia\nB) consolidation\nC) fracture\nD) support devices",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64848/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64848_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) support devices\nC) fracture\nD) no finding",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64850/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64850/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64850_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pleural effusion\nC) pneumonia\nD) pneumothorax",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64851/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64851_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) pneumothorax\nC) atelectasis\nD) support devices",
+        "pred": "The chest X-ray shows a lung opacity."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64867/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64867_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) fracture\nC) support devices\nD) enlarged cardiomediastinum",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64869/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64869/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64869_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pleural effusion\nC) enlarged cardiomediastinum\nD) edema",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64870/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64870/study1/view2_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64870/study1/view3_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64870_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) no finding\nC) consolidation\nD) cardiomegaly",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64875/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64875/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64875_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) atelectasis\nB) pleural effusion\nC) enlarged cardiomediastinum\nD) support devices",
+        "pred": "The chest X-ray shows the presence of support devices, but no atelectasis, pleural effusion, or enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64876/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64876/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64876_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) atelectasis\nC) support devices\nD) pneumothorax",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64877/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64877/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64877_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) lung lesion\nC) cardiomegaly\nD) support devices",
+        "pred": "The chest X-ray shows no pleural effusion, no lung lesion, no cardiomegaly, and no support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64890/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64890_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) consolidation\nC) enlarged cardiomediastinum\nD) pleural effusion",
+        "pred": "The finding in this chest X-ray is support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64892/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64892/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64892_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) pleural effusion\nC) pneumonia\nD) support devices",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64895/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64895/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64895_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) support devices\nC) lung lesion\nD) cardiomegaly",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64897/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64897_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) pleural effusion\nC) support devices\nD) atelectasis",
+        "pred": "The chest X-ray shows cardiomegaly, pleural effusion, support devices, and atelectasis."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64901/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64901_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) enlarged cardiomediastinum\nC) support devices\nD) pleural effusion",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64906/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64906_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) no finding\nC) consolidation\nD) support devices",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64910/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64910/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64910_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) support devices\nC) no finding\nD) consolidation",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64913/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64913/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64913_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) atelectasis\nB) support devices\nC) no finding\nD) pneumothorax",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64920/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64920_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) support devices\nC) pneumonia\nD) fracture",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64932/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64932_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumonia\nB) atelectasis\nC) pleural effusion\nD) support devices",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64940/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64940/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64940_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) lung lesion\nC) support devices\nD) consolidation",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64962/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64962_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pneumonia\nC) cardiomegaly\nD) lung lesion",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64985/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64985/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64985_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) enlarged cardiomediastinum\nC) pneumonia\nD) consolidation",
+        "pred": "The finding in this chest X-ray is support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64995/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64995_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) support devices\nC) fracture\nD) pneumothorax",
+        "pred": "The chest X-ray shows support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65024/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65024/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65024_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) lung lesion\nC) support devices\nD) fracture",
+        "pred": "The chest X-ray shows a pneumothorax, which is the presence of air or gas in the pleural space surrounding the lungs. This can cause symptoms such as shortness of breath, chest pain, and coughing. In this case, the pneumothorax is likely due to the use of support devices, which may have caused a tear or puncture in the lung tissue. The other options, such as lung lesions and fractures, are not visible in the X-ray."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65029/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65029/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65029_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) lung lesion\nC) enlarged cardiomediastinum\nD) support devices",
+        "pred": "The finding in this chest X-ray is an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65041/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65041_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) support devices\nC) lung opacity\nD) pneumothorax",
+        "pred": "The finding in this chest X-ray is an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65043/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65043_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) no finding\nC) support devices\nD) edema",
+        "pred": "The chest X-ray shows support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65062/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65062_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pneumothorax\nC) no finding\nD) pleural effusion",
+        "pred": "The chest X-ray shows support devices and no pneumothorax or pleural effusion."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65076/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65076_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) support devices\nC) atelectasis\nD) pneumonia",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65141/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65141_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) atelectasis\nB) support devices\nC) pneumonia\nD) lung lesion",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65148/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65148_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pneumonia\nC) consolidation\nD) fracture",
+        "pred": "The chest X-ray shows support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65152/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65152/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65152_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) atelectasis\nC) enlarged cardiomediastinum\nD) support devices",
+        "pred": "The chest X-ray shows a lung opacity, atelectasis, and enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65153/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65153_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) edema\nC) pneumonia\nD) pneumothorax",
+        "pred": "The chest X-ray does not show any signs of edema, pneumonia, or pneumothorax. However, it does show support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65184/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65184_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) consolidation\nC) support devices\nD) no finding",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65186/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65186_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) no finding\nC) fracture\nD) support devices",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65215/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65215_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pneumonia\nC) lung opacity\nD) fracture",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65217/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65217_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) edema\nB) pneumonia\nC) support devices\nD) lung opacity",
+        "pred": "The chest X-ray shows support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65219/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65219_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) support devices\nC) cardiomegaly\nD) edema",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65220/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65220_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) support devices\nC) fracture\nD) lung opacity",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65232/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65232_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) pneumothorax\nC) support devices\nD) enlarged cardiomediastinum",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65238/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "support devices",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65238_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) support devices\nC) atelectasis\nD) enlarged cardiomediastinum",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64750/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64750/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64750_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) cardiomegaly\nC) no finding\nD) pneumonia",
+        "pred": "There is no finding in this chest X-ray."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64928/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64928/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64928_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) pneumonia\nC) cardiomegaly\nD) lung lesion",
+        "pred": "The chest X-ray shows a normal heart size and no signs of pneumonia, lung lesions, or other abnormalities. Therefore, the answer is A) no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64990/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64990/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64990_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumonia\nB) lung opacity\nC) support devices\nD) no finding",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65017/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65017_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) pleural effusion\nC) enlarged cardiomediastinum\nD) no finding",
+        "pred": "The chest X-ray shows no findings."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64792/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64792/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64792_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) no finding\nC) fracture\nD) edema",
+        "pred": "The chest X-ray shows a lung lesion."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65003/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65003/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65003_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) consolidation\nC) edema\nD) enlarged cardiomediastinum",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65180/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65180_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) enlarged cardiomediastinum\nC) cardiomegaly\nD) no finding",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65083/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65083_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) cardiomegaly\nC) lung lesion\nD) support devices",
+        "pred": "The chest X-ray shows a normal heart size, clear lungs, and no signs of cardiomegaly or lung lesions. There are no support devices visible in the image."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64996/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64996/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64996_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) cardiomegaly\nC) pneumonia\nD) edema",
+        "pred": "The chest X-ray shows no cardiomegaly, pneumonia, or edema. Therefore, the answer is A) no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64840/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64840/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64840_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) no finding\nC) atelectasis\nD) pneumothorax",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64955/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64955/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64955_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) edema\nB) no finding\nC) pleural effusion\nD) pneumonia",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64756/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64756/study1/view2_lateral.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64756/study1/view3_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64756_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) consolidation\nC) pneumothorax\nD) lung opacity",
+        "pred": "The chest X-ray shows a lung opacity."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64933/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64933/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64933_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) atelectasis\nC) no finding\nD) lung opacity",
+        "pred": "The chest X-ray shows no lung opacity, no pleural effusion, no pulmonary edema, no pleural effusion, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity, no lung opacity,"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65109/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65109_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) edema\nC) enlarged cardiomediastinum\nD) cardiomegaly",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum and cardiomegaly."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64785/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64785/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64785_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) edema\nB) lung opacity\nC) cardiomegaly\nD) no finding",
+        "pred": "The chest X-ray shows cardiomegaly."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65074/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65074_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) pleural effusion\nC) lung opacity\nD) enlarged cardiomediastinum",
+        "pred": "The chest X-ray shows no lung opacity, pleural effusion, or enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64880/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64880_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) edema\nC) enlarged cardiomediastinum\nD) pneumonia",
+        "pred": "The chest X-ray shows a normal heart size and no signs of edema, pneumonia, or enlarged cardiomediastinum. Therefore, the answer is A) no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64857/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64857/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64857_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) cardiomegaly\nC) fracture\nD) lung opacity",
+        "pred": "The chest X-ray shows a lung opacity."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64806/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64806/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64806_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) atelectasis\nB) fracture\nC) no finding\nD) cardiomegaly",
+        "pred": "The finding in this chest X-ray is atelectasis."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64859/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64859/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64859_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) lung opacity\nC) pneumonia\nD) edema",
+        "pred": "The chest X-ray shows a lung opacity."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64957/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64957/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64957_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) cardiomegaly\nC) no finding\nD) atelectasis",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64775/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64775/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64775_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) support devices\nC) fracture\nD) no finding",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65072/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65072_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) cardiomegaly\nC) no finding\nD) atelectasis",
+        "pred": "The chest X-ray shows a normal heart size and no signs of consolidation, atelectasis, or other abnormalities. Therefore, the answer is C) no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64809/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64809/study1/view2_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64809/study1/view3_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64809_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) no finding\nC) pneumothorax\nD) cardiomegaly",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64976/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64976/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64976_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) pleural effusion\nC) consolidation\nD) lung opacity",
+        "pred": "The finding in this chest X-ray is pleural effusion."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64814/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64814/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64814_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) edema\nC) fracture\nD) no finding",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65006/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65006/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65006_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) edema\nC) atelectasis\nD) fracture",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65002/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65002/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65002_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) pneumothorax\nC) lung opacity\nD) atelectasis",
+        "pred": "The chest X-ray shows a pneumothorax."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64926/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64926/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64926_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) no finding\nC) pneumonia\nD) support devices",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64769/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64769_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) no finding\nC) edema\nD) cardiomegaly",
+        "pred": "The chest X-ray shows cardiomegaly."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64886/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64886/study1/view2_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64886/study1/view3_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64886_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) enlarged cardiomediastinum\nC) no finding\nD) atelectasis",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65013/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65013/study1/view2_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65013/study1/view3_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65013_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pleural effusion\nC) no finding\nD) enlarged cardiomediastinum",
+        "pred": "The chest X-ray does not show any support devices, pleural effusion, or enlarged cardiomediastinum. Therefore, the answer is C) no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64972/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64972/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64972_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) atelectasis\nC) pleural effusion\nD) no finding",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65009/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65009/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65009_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) cardiomegaly\nC) fracture\nD) pneumothorax",
+        "pred": "The chest X-ray shows a normal heart size, clear lung fields, and no signs of fractures or pneumothorax. Therefore, the answer is A) no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64825/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64825_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) lung lesion\nC) cardiomegaly\nD) atelectasis",
+        "pred": "The chest X-ray shows cardiomegaly."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64914/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64914_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) no finding\nC) edema\nD) atelectasis",
+        "pred": "The chest X-ray shows interstitial edema."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64774/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64774_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) support devices\nC) no finding\nD) pleural effusion",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum and support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64905/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64905/study1/view2_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64905/study1/view3_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64905_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) no finding\nC) cardiomegaly\nD) lung lesion",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64923/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64923/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64923_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) support devices\nC) no finding\nD) lung opacity",
+        "pred": "The chest X-ray shows no cardiomegaly, no support devices, and no lung opacity. Therefore, the answer is D) no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64760/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64760_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) consolidation\nC) cardiomegaly\nD) pneumothorax",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64788/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64788/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64788_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) consolidation\nC) enlarged cardiomediastinum\nD) support devices",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64868/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64868_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) edema\nC) consolidation\nD) no finding",
+        "pred": "The chest X-ray shows the presence of support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64925/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64925_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) pneumothorax\nC) atelectasis\nD) no finding",
+        "pred": "The chest X-ray shows support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64822/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64822_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) enlarged cardiomediastinum\nC) atelectasis\nD) consolidation",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64956/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64956/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64956_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) cardiomegaly\nC) pneumothorax\nD) pneumonia",
+        "pred": "The chest X-ray shows no cardiomegaly, pneumothorax, or pneumonia. Therefore, the answer is A) no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64811/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64811/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64811_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) lung lesion\nC) no finding\nD) pneumonia",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64846/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64846/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64846_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) no finding\nC) cardiomegaly\nD) pleural effusion",
+        "pred": "The chest X-ray does not show any signs of cardiomegaly, pleural effusion, or consolidation. Therefore, the answer is B) no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64981/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64981/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64981_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) support devices\nC) lung opacity\nD) consolidation",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64855/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64855/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64855_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) atelectasis\nC) support devices\nD) no finding",
+        "pred": "The chest X-ray shows no lung opacity, no atelectasis, and no support devices. Therefore, the answer is D) no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65050/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65050/study1/view2_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65050_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) fracture\nC) no finding\nD) atelectasis",
+        "pred": "The chest X-ray shows a pneumothorax."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64805/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64805_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) fracture\nC) enlarged cardiomediastinum\nD) no finding",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64874/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64874/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64874_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) pneumonia\nC) lung lesion\nD) no finding",
+        "pred": "The chest X-ray shows a lung lesion."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64943/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64943/study1/view2_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64943_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) edema\nB) enlarged cardiomediastinum\nC) pleural effusion\nD) no finding",
+        "pred": "The chest X-ray does not show any signs of edema, enlarged cardiomediastinum, or pleural effusion. Therefore, the answer is D) no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64919/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "no finding",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64919_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) lung lesion\nC) no finding\nD) pneumonia",
+        "pred": "The chest X-ray shows no finding."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64755/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64755/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64755_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) lung opacity\nC) cardiomegaly\nD) lung lesion",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum and cardiomegaly."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64816/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64816_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) consolidation\nB) pleural effusion\nC) enlarged cardiomediastinum\nD) lung opacity",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64828/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64828/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64828_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) support devices\nC) consolidation\nD) lung opacity",
+        "pred": "The chest X-ray shows hyperinflation of the lungs with flattening of the hemidiaphragms. There is no focal consolidation, pleural effusion, pneumothorax, or pulmonary edema. The cardiomediastinal silhouette is within normal limits."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64888/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64888_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) atelectasis\nB) lung opacity\nC) pneumonia\nD) pleural effusion",
+        "pred": "The finding in this chest X-ray is atelectasis."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64935/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64935_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) lung lesion\nC) no finding\nD) support devices",
+        "pred": "The chest X-ray shows a lung opacity."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64937/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64937_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) edema\nB) lung opacity\nC) pneumonia\nD) pneumothorax",
+        "pred": "The finding in this chest X-ray is lung opacity."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64959/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64959/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64959_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) pneumonia\nC) edema\nD) cardiomegaly",
+        "pred": "The finding in this chest X-ray is lung opacity."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65000/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65000_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) atelectasis\nC) pneumothorax\nD) edema",
+        "pred": "The chest X-ray shows a lung opacity."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65051/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65051/study1/view2_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "lung opacity",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65051_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) support devices\nC) lung opacity\nD) pneumonia",
+        "pred": "The chest X-ray does not show any signs of pleural effusion, support devices, lung opacity, or pneumonia."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64764/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64764/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64764_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pleural effusion\nB) lung lesion\nC) fracture\nD) enlarged cardiomediastinum",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64787/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64787/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64787_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) pneumothorax\nB) cardiomegaly\nC) pneumonia\nD) enlarged cardiomediastinum",
+        "pred": "D) enlarged cardiomediastinum"
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64789/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64789_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) support devices\nC) enlarged cardiomediastinum\nD) pneumothorax",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64794/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64794/study1/view2_lateral.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64794_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) edema\nB) enlarged cardiomediastinum\nC) pleural effusion\nD) consolidation",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64872/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64872/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64872_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) fracture\nC) pneumonia\nD) pleural effusion",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64894/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64894/study1/view2_lateral.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64894_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) no finding\nC) edema\nD) pleural effusion",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum and edema."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64907/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64907/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64907_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) pneumonia\nC) lung opacity\nD) enlarged cardiomediastinum",
+        "pred": "The finding in this chest X-ray is an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64911/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64911_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung lesion\nB) enlarged cardiomediastinum\nC) edema\nD) pleural effusion",
+        "pred": "The chest X-ray shows a lung lesion."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64921/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient64921/study1/view2_lateral.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient64921_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) no finding\nC) pneumonia\nD) enlarged cardiomediastinum",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65001/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65001_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) support devices\nB) lung lesion\nC) enlarged cardiomediastinum\nD) pleural effusion",
+        "pred": "The chest X-ray shows the presence of pleural effusion."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65023/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65023_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) lung opacity\nB) edema\nC) enlarged cardiomediastinum\nD) support devices",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65087/study1/view1_frontal.jpg",
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65087/study1/view2_lateral.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65087_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) fracture\nB) lung opacity\nC) enlarged cardiomediastinum\nD) cardiomegaly",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum and cardiomegaly."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65158/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65158_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) no finding\nB) edema\nC) enlarged cardiomediastinum\nD) cardiomegaly",
+        "pred": "The chest X-ray shows enlarged cardiomediastinum and cardiomegaly."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65177/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65177_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) lung lesion\nC) no finding\nD) cardiomegaly",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum and cardiomegaly."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65199/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65199_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) edema\nC) pneumothorax\nD) support devices",
+        "pred": "The chest X-ray does not show any signs of enlarged cardiomediastinum, edema, pneumothorax, or support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65200/study1/view1_frontal.jpg"
+        ],
+        "answer": "A",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65200_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) enlarged cardiomediastinum\nB) pneumonia\nC) no finding\nD) support devices",
+        "pred": "The chest X-ray shows an enlarged cardiomediastinum and support devices."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65237/study1/view1_frontal.jpg"
+        ],
+        "answer": "C",
+        "answer_content": "enlarged cardiomediastinum",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65237_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) lung opacity\nC) enlarged cardiomediastinum\nD) fracture",
+        "pred": "The chest X-ray shows cardiomegaly."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65192/study1/view1_frontal.jpg"
+        ],
+        "answer": "D",
+        "answer_content": "fracture",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65192_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) pneumothorax\nC) pneumonia\nD) fracture",
+        "pred": "The chest X-ray does not show any signs of cardiomegaly, pneumothorax, pneumonia, or fracture."
+    },
+    {
+        "image_path": [
+            "/mnt/lustre/wuchaoyi/wcypetrel/wuchaoyi/MedBench/Datasets/DATA/DATA/ChestXray/CheXpert/small/CheXpert-v1.0-small/test/patient65229/study1/view1_frontal.jpg"
+        ],
+        "answer": "B",
+        "answer_content": "pleural effusion",
+        "dataset_name": "reason Image Classification",
+        "item_id": "[chexpert] [patient65229_study1]CheXpert-Public",
+        "question": "Which finding is in this chest X-ray? Options:\nA) cardiomegaly\nB) pleural effusion\nC) edema\nD) atelectasis",
+        "pred": "The chest X-ray shows cardiomegaly."
+    }
+]
