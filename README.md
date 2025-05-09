@@ -68,3 +68,13 @@ We provide:
 2. The baseline inference code in `eval/inference`
 3. The evaluation results on both reasoning and accuracy of all baselines in `eval/res`
 
+## Citation
+If you find this work is relevant with your research or applications, please feel free to cite our work!
+```
+@article{fan2025chestx,
+  title={ChestX-Reasoner: Advancing Radiology Foundation Models with Reasoning through Step-by-Step Verification},
+  author={Fan, Ziqing and Liang, Cheng and Wu, Chaoyi and Zhang, Ya and Wang, Yanfeng and Xie, Weidi},
+  journal={arXiv preprint arXiv:2504.20930},
+  year={2025}
+}
+```
