@@ -50,11 +50,11 @@ pip3 install -e .[vllm]
 cd ChestXReasoner
 bash run_SFT.sh
 ```
-Notably, there are configs and data paths should set in your devices. Please see details in ./ChestXReasoner/readme.md  
+Notably, before run the bash file, there are configs and data paths should set in your devices. Please see details in ./ChestXReasoner/readme.md  
 
 
 ### Reinforcement Learning  
-We provide all the code used for fine-tuning. We support 2 fine-tuning methods: Full-Model Fine-tuning and PEFT Fine-Tuning.  Both codes are in the `finetune` folder. You can check the [documentation](./finetune/README.md) in the folder for how to use the codes.
+To be continue  
 
 ### Reinforcement Learning with Process Reward  
 
