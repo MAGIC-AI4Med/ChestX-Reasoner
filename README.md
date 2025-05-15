@@ -30,7 +30,8 @@ The official codes for "ChestX-Reasoner: Advancing Radiology Foundation Models w
 ## Training
 In the following, we provide an overview and detailed guidance on the code used to train our ChestX-Reasoner and its variants.  
 * Note that SFT step requires at least 4 A100 80GB GPUs and training for about 2 days.  
-* Note that RL step requires at least 8 A100 80GB GPUs and training for about 3 days.  
+* Note that RL step requires at least 8 A100 80GB GPUs and training for about 3 days.
+* VLLM for inference and Verl engine are essential to save training times.  
 ### Environment  
 You can install the code environment used for training our model. Our code is established based on **VERL(https://github.com/volcengine/verl)** engine. You may see for more detailed instructions. Besides, we provide a copy of our env list in **./env.txt**.  
 ```bash
