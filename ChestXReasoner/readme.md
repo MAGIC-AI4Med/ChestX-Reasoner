@@ -29,7 +29,9 @@ bf16(True)
 ddp_find_unused_parameters(False)  
 gradient_checkpointing(True)  
 ```
+Except for config, the data used for SFT also need to set.  
 
 ## Instruction for RL tuning
-
-
+See https://verl.readthedocs.io/en/latest/examples/config.html for config explanation  
+See 
+See for reward design  
