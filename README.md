@@ -11,7 +11,7 @@ ChestX-Reasoner: Advancing Radiology Foundation Models with Reasoning through St
 <h4> |<a href="https://arxiv.org/pdf/2504.20930?"> 📑 Paper </a> |
 <a href="https://github.com/MAGIC-AI4Med/ChestX-Reasoner"> 🐱 Github Repo </a> |
 <a href="https://huggingface.co/byrLLCC/ChestX-Reasoner"> 🐱 ChestX-Reasoner-7B </a> |
-  <a href="https://huggingface.co/byrLLCC/ChestX-Reasoner"> 🐱 RadRBench </a> |
+  <a href="[https://huggingface.co/byrLLCC/ChestX-Reasoner](https://huggingface.co/datasets/byrLLCC/RadRBench-CXR)"> 🐱 RadRBench </a> |
 </h4>
 
 <!-- **Authors:** -->
