@@ -49,8 +49,8 @@ def get_key_finding(reason_steps):
             
             3. Ensure the observations are concise and directly tied to the reasoning steps.
             4. If there is any ambiguity or contradiction in the reasoning, reflect the findings as per the steps provided, and do not infer beyond the given text.
-            5. If the reason steps lacks some key findings, 
-            5. **Output Format**:
+            5. If the reason steps lacks some key findings, extract only the findings that are explicitly mentioned and do not assume or add missing findings.
+            6. **Output Format**:
             - Return the extracted key reasoning steps as a JSON list of strings, where each string represents a specific observation or finding from the report.
             - Structure your response in JSON format with the following schema:
             {{
